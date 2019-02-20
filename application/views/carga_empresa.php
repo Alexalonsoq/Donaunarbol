@@ -46,7 +46,8 @@
     <meta name="author" content="">
     <link rel="icon" href="../images/ico/favicon.ico">
     <title>Cargar</title>
-    <!-- Bootstrap core CSS -->
+    <!-- Boots
+        ap core CSS -->
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Custom styles for this template -->

@@ -50,7 +50,7 @@ else {
   echo'
      <script>
         alert("Datos erroneos");
-       location.href="http://localhost:8080/tre/login";
+       location.href="http://localhost:8080/tree1/login";
        </script>
 ';
 
@@ -69,7 +69,7 @@ public function cargar()
 	$this->load->view('cargar');
 } else{
 
-header("Location: http://localhost:8080/tre/login");
+header("Location: http://localhost:8080/tree1/login");
 	}
 
 }
@@ -86,7 +86,7 @@ public function carga()
 } 
 else{
 
-header("Location: http://localhost:8080/tre/login");
+header("Location: http://localhost:8080/tree1/login");
 	}
 
 	
@@ -131,7 +131,7 @@ if(mysqli_num_rows($query)){
     <script>
       alert("El id de imagen ya existe ");
      
-    location.href= "http://localhost:8080/tre/Login/cargar";
+    location.href= "http://localhost:8080/tree1/Login/cargar";
      
     </script>
 ';
@@ -148,7 +148,7 @@ mysqli_query($link, "INSERT INTO img_personas (nom_p, apellido_p, apellido_m, ur
 echo'
     <script>
       alert("Datos guardados");
-     location.href= "http://localhost:8080/tre/login/cargar";
+     location.href= "http://localhost:8080/tree1/login/cargar";
     </script>
 ';
 
@@ -193,7 +193,7 @@ if(mysqli_num_rows($query)){
     <script>
       alert("El id de imagen ya existe ");
      
-    location.href= "http://localhost:8080/tre/home/carga";
+    location.href= "http://localhost:8080/tree1/home/carga";
      
     </script>
 ';
@@ -210,7 +210,7 @@ mysqli_query($link, "INSERT INTO img_emp (nombre_emp, id_img, correo,  url_img)
 echo'
     <script>
       alert("Datos guardados");
-     location.href= "http://localhost:8080/tre/home/carga";
+     location.href= "http://localhost:8080/tree1/home/carga";
     </script>
 ';
 
