@@ -86,9 +86,6 @@ include('menu.php');
   <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive" >
   </div>
 
-<div class="fondodiv">
-    <h1></h1>
-  </div>
 
 
 

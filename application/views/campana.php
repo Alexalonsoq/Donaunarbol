@@ -52,11 +52,17 @@
 .graph .bar span { position: absolute; left: 1em; }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .columns {
         width: 100%;
     }
+
+    .video{
+      width:100%;
+      height:400px;
+    }
 }
+
 </style>
 
 
@@ -113,12 +119,10 @@
 <div class="container text-center">    
   <br>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <h2>¿Cómo funciona?</h2>
     </div>
-    <div class="col-sm-3">    
-    </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="well">
        <p >01. CONCIENCIA</p>
        <p align="justify">Es importante que todos conozcamos
@@ -138,7 +142,7 @@
        <br>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="well">
        <p>0.2 ACCIÓN</p>
         <p align="justify">La forma que hemos empleado para
@@ -174,7 +178,7 @@
       <p><h4>este vídeo para causar un impacto muy grande.</h4></p>
     </div>
     <div class="col-sm-8" style="background-color:#f4f4f4;"><br>
-      <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
+      <iframe  class="video "src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
       </iframe>
       <br><br>
     </div>
