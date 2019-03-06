@@ -12,7 +12,7 @@
   
 
     <!-- Bootstrap y Fonts CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.min.css">
     
 
   <meta name="description" content="">
@@ -23,13 +23,13 @@
   <title>
     TreeSchool
   </title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Custom fonts for this template-->
-  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
+  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>css/sb-admin.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -41,13 +41,13 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity=""></script>
-   <link rel="stylesheet" href="custom.css">
+   <link rel="stylesheet" href="<?php echo base_url();?>custom.css">
 </head>
 <body   style="background-color:#F2F2F2">
 
 
   <nav id="menu" class="navbar navbar-expand-lg navbar-light  sticky-top" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="http://localhost:8080/tre"> <img src="img/logo.png" width="100"  class="img-responsive"> </a>
+      <a class="navbar-brand" href="http://localhost:8080/tree1"> <img src="<?php echo base_url();?>img/logo.png" width="100"  class="img-responsive"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" 
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
           aria-expanded="false" aria-label="Toggle navigation">
@@ -57,19 +57,19 @@
   <div class="collapse navbar-collapse  " id="navbarSupportedContent">
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="home/campana"> <h4>CAMPAÑA</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/campana"> <h4>CAMPAÑA</h4></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href=home/somos"><h4>QUIÉNES SOMOS</h4></a>
+          <a class="nav-link" href="<?php echo base_url();?>home/somos"><h4>QUIÉNES SOMOS</h4></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="home/arbolito"><h4>TU ARBOLITO</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/arbolito"><h4>TU ARBOLITO</h4></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="home/sus"><h4>SUSTENTABILIDAD</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/sus"><h4>SUSTENTABILIDAD</h4></a>
       </li>
         <li class="nav-item" >
-    <a class="nav-link" href="home/contacto"><h4>CONTACTO</h4></a>
+    <a class="nav-link" href="<?php echo base_url();?>home/contacto"><h4>CONTACTO</h4></a>
   </li>
    <li class="nav-item">
           
@@ -87,4 +87,3 @@
 
 </body>
 </html>
-

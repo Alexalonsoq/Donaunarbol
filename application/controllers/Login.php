@@ -39,7 +39,7 @@ if(mysqli_num_rows($query)>0){
        $_SESSION['user'] = ['user'];
         
        
-       $this->load->view('cargar');
+       $this->load->view('cargar_persona');
         
   
 } 
@@ -62,11 +62,11 @@ else {
 	}
 
 
-public function cargar()
+public function p()
 	{
 		if (isset($_SESSION["user"])) {
 	
-	$this->load->view('cargar');
+	$this->load->view('cargar_persona');
 } else{
 
 header("Location: http://localhost:8080/tree1/login");
@@ -75,13 +75,13 @@ header("Location: http://localhost:8080/tree1/login");
 }
 
 		
-public function carga()
+public function e()
 	{
 		
 	
 		
 				if (isset($_SESSION["user"])) {
-	$this->load->view('carga_empresa');
+	$this->load->view('cargar_empresa');
 	
 } 
 else{
@@ -220,7 +220,15 @@ echo'
 
 }
 
+public function salir(){
 
+
+session_start();
+session_destroy();
+header("Location: http://localhost:8080/tree1/login");
+exit();
+
+}
 
 
 }

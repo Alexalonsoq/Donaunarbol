@@ -22,10 +22,10 @@
 
 
 <p><a href="https://www.facebook.com/TheTreeSchool/" target="_blank">
-  <img class="alignleft wp-image-311" src="../img/fb.png" alt="" width="60" height="60" /></a> 
+  <img class="alignleft wp-image-311" src="<?php echo base_url();?>/img/fb.png" alt="" width="60" height="60" /></a> 
    &nbsp;
   <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">
-    <img class="alignleft wp-image-313" src="../img/yout.png" alt="" width="85" height="83" /></a>
+    <img class="alignleft wp-image-313" src="<?php echo base_url();?>/img/yout.png" alt="" width="85" height="83" /></a>
   </p>
             </div>
            <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">

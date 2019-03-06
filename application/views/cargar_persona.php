@@ -54,7 +54,7 @@
 	<link href="../css/preview-image.css" rel="stylesheet">
 
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <script>
@@ -131,7 +131,7 @@ $(function() {
 	   <ol class="breadcrumb">
 		  
 		  <li class="active">Personas</li>
-		  <li > <a href="carga">Empresas </a></li>
+		  <li > <a href="e">Empresas </a></li>
 		   <a href="salir" class="btn btn-warning" role="button" aria-disabled="true">Salir</a>
 
 		  </ol>
@@ -151,7 +151,7 @@ $(function() {
 			  </div>
 			  
 			  <div class="form-group">
-				<label for="ap_p" class="col-sm-3 control-label">Apellido paterno</label>
+				<label for="ap_p" class="col-sm-3 control-label">Apellido</label>
 				<div class="col-sm-9">
 				  <input type="text" class='form-control' name="ap_p" id="ap_p" required name="ap_p"> </input>
 				</div>
@@ -160,13 +160,7 @@ $(function() {
 			
 
 
-			<div class="form-group">
-				<label for="ap_m" class="col-sm-3 control-label">Apellido materno</label>
-				<div class="col-sm-9">
-				  <input type="text" class="form-control" id="ap_m"  required name="ap_m">
-				  
-				</div>
-			  </div>
+			
 			  
 			  <div class="form-group">
 				<label for="id_img" class="col-sm-3 control-label">Id imagen</label>

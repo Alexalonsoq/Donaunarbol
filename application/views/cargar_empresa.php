@@ -55,7 +55,7 @@
 	<link href="../css/preview-image.css" rel="stylesheet">
 
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <script>
@@ -131,8 +131,9 @@ $(function() {
  
 	   <ol class="breadcrumb">
 		  
-		  <li ><a href="cargar">Personas</a></li>
+		  <li ><a href="p">Personas</a></li>
 		  <li class="active"> Empresas </li>
+           <a href="salir" class="btn btn-warning" role="button" aria-disabled="true">Salir</a>
 		</ol>
 		 <div class="col-md-7">
 		 <h3 ><span class="glyphicon glyphicon-edit"></span> Subir imagen</h3>

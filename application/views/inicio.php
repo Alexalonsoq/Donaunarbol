@@ -83,7 +83,7 @@ include('menu.php');
 
 
 <div class="contenedor-fluid">
-  <img src="img/fondo1.jpg" width="1500"  class="img-responsive" >
+  <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive" >
   </div>
 
 <div class="fondodiv">
@@ -159,28 +159,28 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="img/1.jpg" alt="img1" >
+        <img src="<?php echo base_url();?>img/1.jpg" alt="img1" >
         <div class="carousel-caption">
           
         </div>
       </div>
 
       <div class="item">
-        <img src="img/2.jpg" alt="img2" >
+        <img src="<?php echo base_url();?>img/2.jpg" alt="img2" >
         <div class="carousel-caption">
           
         </div>
       </div>
     
       <div class="item">
-        <img src="img/3.jpg" alt="img5" >
+        <img src="<?php echo base_url();?>img/3.jpg" alt="img5" >
         <div class="carousel-caption">
           
         </div>
       </div>
       
       <div class="item">
-        <img src="img/4.jpg" alt="img5" >
+        <img src="<?php echo base_url();?>img/4.jpg" alt="img5" >
         <div class="carousel-caption">
           
         </div>
@@ -223,7 +223,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     <li > <div ><h3 style=" color:grey" >
           <span class="currency">$</span>50.00 pesos</h3></div></li>
     <li >
-        <img src="img/gust.jpg" class="img-responsive" >
+        <img src="<?php echo base_url();?>img/gust.jpg" class="img-responsive" >
 </li>
     </ul>
             </div>
@@ -236,7 +236,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     <li class="grey"> <div class="pricing-table-price"><h3 style=" color:green">
           <span class="currency">$</span>99.00 pesos</h3></div></li>
     <li >
-        <img src="img/gust.jpg" class="img-responsive" >
+        <img src="<?php echo base_url();?>img/gust.jpg" class="img-responsive" >
 </li>
     </ul>
 
@@ -254,9 +254,9 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
      </li>
      <li>
     	<div class="container-fluid" align="center">
-  			<img src="img/treeschool1.jpg" width="200" height="200" style="margin: 0 -15px" >
-  			<img src="img/portal-social.jpg" width="200" height="200" style="margin: 0 -15px">
-  			<img src="img/sierra.png" width="200" height="200" style="margin: 0 -15px">
+  			<img src="<?php echo base_url();?>img/treeschool1.jpg" width="200" height="200" style="margin: 0 -15px" >
+  			<img src="<?php echo base_url();?>img/portal-social.jpg" width="200" height="200" style="margin: 0 -15px">
+  			<img src="<?php echo base_url();?>img/sierra.png" width="200" height="200" style="margin: 0 -15px">
   		</div>
 </li>
     
@@ -265,20 +265,20 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 
 
 <div class="content clearfix">
-<img src="img/vista.jpg" width="1500"  class="img-responsive">
+<img src="<?php echo base_url();?>img/vista.jpg" width="1500"  class="img-responsive">
 </div>
 
 <div style="clear:both; margin:20px" > </div>
 
 <div class="content clearfix">
-  <img src="img/patrocinadores.png"  width="1500" class="img-responsive">
+  <img src="<?php echo base_url();?>img/patrocinadores.png"  width="1500" class="img-responsive">
     
 </div>
 
 <div style="clear:both; margin:20px" > </div>
 
   <div class="content clearfix">
-<img src="img/tierrita.jpg"  class="img-responsive">
+<img src="<?php echo base_url();?>img/tierrita.jpg"  class="img-responsive">
 </div>
 
 
@@ -292,6 +292,6 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
  
 
 	<?php 
-include('foo.php');
+include('footer.php');
 //include('menu.php');
 ?>
