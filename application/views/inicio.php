@@ -78,6 +78,14 @@ include('menu.php');
       padding: 14px;
       background-color: #2ECCFA;
     }
+.conoceMas{
+  background-color:#80a8d9;
+  border-color:#80a8d9;
+}
+
+/* .imagen{
+  width:100%;
+} */
 </style>
 
 
@@ -85,19 +93,23 @@ include('menu.php');
 <div class="contenedor-fluid">
   <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive" >
   </div>
+  <br>
+  <br>
+  <br>
 
 
 
 
 <div class="container" align="center">
-   <h1 color="blue">Queremos que nos ayudes</h1></p>
+   <h1 color="blue">Necesitamos tu ayuda</h1>
+   <br>
      <div class="col-md-4"></div>
   <div class="col-md-4" align="center"> <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
 Climático. Nuestra forma de hacerlo es reforestando, ya que cada
 año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
-<h2>Vamos a recuperarlos.</h2>
+<h2>¡Vamos a recuperarlos!</h2>
 
-<a class="btn btn-primary" href="https://donaunarbolalmundo.org/campana/" target="_blank" role="button"> <h2>CONOCE MÁS</h2></a>
+<a class="btn btn-primary conoceMas" href="https://donaunarbolalmundo.org/campana/" target="_blank" role="button"> <h2>Conoce más</h2></a>
 </div>
 </div>
 <div style="clear:both; margin:25px" > </div>
@@ -115,29 +127,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 
 		
 
-<div class="row">
 
-
-  <div class="col-md-4" align="center" style="color:#3380FF";> <FONT FACE="impact" SIZE=7>10</FONT>
- <h2> AIRES </h2>
- <h2> ACONDICIONADOS</h2>
-  </div>
-
-
-  <div class="col-md-4" align="center" style="color:#3380FF"> <FONT FACE="impact" SIZE=7>400</FONT>
-  <h2> LITROS DE AGUA</h2>
-  <h2> DIARIOS</h2>
-  </div>
-  <div class="col-md-4" align="center" style="color:#3380FF"> <FONT FACE="impact" SIZE=7>12500</FONT>
-  <h2> HOJAS</h2>
-  <h2>DE PAPEL</h2>
-  </div>
-</div>
-
-  <div style="clear:both; margin:25px" > </div>
-  <div style="clear:both; margin:25px" > </div>
-  <div style="clear:both; margin:25px" > </div>
- 
 
 
   
@@ -156,7 +146,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="<?php echo base_url();?>img/1.jpg" alt="img1" >
+        <img src="<?php echo base_url();?>img/1.jpg" alt="img1" class="imagen" >
         <div class="carousel-caption">
           
         </div>
@@ -173,7 +163,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
         <img src="<?php echo base_url();?>img/3.jpg" alt="img5" >
         <div class="carousel-caption">
           
-        </div>
+      </div>
       </div>
       
       <div class="item">

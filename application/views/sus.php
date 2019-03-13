@@ -2,6 +2,19 @@
 ///Menu fin
  ?>
 <style>
+@font-face {
+    font-family: myFont;
+    src: url(../img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(../img/fonts/HelveticaLTStd-Cond.otf);
+}
+
+body{
+  font-family: myFont;
+}
 .price {
     list-style-type: none;
     border: 1px solid #eee;

@@ -1,6 +1,15 @@
-body {
+/* body {
     font-family: 'Raleway' , sans-serif;
+} */
+
+body{
+    font-family: myFont;
 }
+@font-face {
+    font-family: myFont;
+    src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+}
+
 
 .container-fluid{
 	height: 200px;

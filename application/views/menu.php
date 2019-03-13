@@ -42,12 +42,45 @@
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity=""></script>
    <link rel="stylesheet" href="<?php echo base_url();?>custom.css">
+   <style>
+        @font-face {
+            font-family: myFont;
+            src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+        }
+
+        body{
+            font-family: myFont;
+         }
+         .navbar{
+           margin-bottom:0px;
+         }
+
+         .btn{
+              background-color:#80a8d9;
+              border-color:#80a8d9;
+         }
+
+         . navbar-collapse{
+            width:50%;
+         }
+         .logo{
+           float:left;
+           display:inline;
+           margin-right:50%;
+         }
+         .navbar-toggler{
+           display:inline;
+         }
+      
+        
+   </style>
 </head>
-<body   style="background-color:#F2F2F2">
+
+<body>
 
 
   <nav id="menu" class="navbar navbar-expand-lg navbar-light  sticky-top" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="http://localhost:8080/tree1"> <img src="<?php echo base_url();?>img/logo.png" width="100"  class="img-responsive"> </a>
+      <a class="navbar-brand logo" href="http://localhost:8080/tree1"> <img src="<?php echo base_url();?>img/logo.png" width="100"  > </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" 
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
           aria-expanded="false" aria-label="Toggle navigation">
@@ -57,23 +90,23 @@
   <div class="collapse navbar-collapse  " id="navbarSupportedContent">
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url();?>home/campana"> <h4>CAMPAÑA</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/campana"> <h4>Campaña</h4></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url();?>home/somos"><h4>QUIÉNES SOMOS</h4></a>
+          <a class="nav-link" href="<?php echo base_url();?>home/somos"><h4>¿Quiénes somos?</h4></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url();?>home/arbolito"><h4>TU ARBOLITO</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/arbolito"><h4>Tu arbolito</h4></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url();?>home/sus"><h4>SUSTENTABILIDAD</h4></a>
+        <a class="nav-link" href="<?php echo base_url();?>home/sus"><h4>Sostenibilidad</h4></a>
       </li>
         <li class="nav-item" >
-    <a class="nav-link" href="<?php echo base_url();?>home/contacto"><h4>CONTACTO</h4></a>
+    <a class="nav-link" href="<?php echo base_url();?>home/contacto"><h4>Contacto</h4></a>
   </li>
    <li class="nav-item">
           
-<a class="btn btn-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=VCT63QQJ8LPGN" target="_self" role="button"><h4>DONAR</h4></a>
+<a class="btn btn-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=VCT63QQJ8LPGN" target="_self" role="button"><h4>DONA</h4></a>
         </li>
 
     </ul>
