@@ -4,9 +4,8 @@
     src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
 }
 
-
 body{
-    font-family: myFont;
+    font-family: myFont !important;
  }
  footer {
      font-family: 'Monserrat', sans-serif !important;
