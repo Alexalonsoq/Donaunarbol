@@ -47,36 +47,39 @@
             font-family: myFont;
             src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
         }
+        @font-face {
+            font-family: myFont2;
+            src: url(img/fonts/HelveticaLTStd-Cond.otf);
+        }
 
         body{
             font-family: myFont;
          }
+        
+         h4{
+          font-weight: bold;
+          color:black;
+         }
          .navbar{
            margin-bottom:0px;
+           background-color:white;
          }
 
          .btn{
               background-color:#80a8d9;
               border-color:#80a8d9;
+             
          }
-
-         . navbar-collapse{
-            width:50%;
+         .btn h4{
+            color:white;
          }
          .logo{
-           /* float:left; */
            display:inline;
-           /* margin-right:50%; */
          }
          .navbar-toggler{
            display:inline;
          }
 
-        /* @media only screen and (min-width: 900px) {
-          .logo {
-            margin-left:30%;
-          }
-        } */
       
         
    </style>
@@ -85,7 +88,7 @@
 <body>
 
 
-  <nav id="menu" class="navbar navbar-expand-lg navbar-light  sticky-top" style="background-color: #e3f2fd;">
+  <nav id="menu" class="navbar navbar-expand-lg navbar-light  sticky-top" >
       <a class="navbar-brand logo" href="http://localhost:8080/tree1"> <img src="<?php echo base_url();?>img/logo.png" width="100"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" 
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -93,7 +96,7 @@
   <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url();?>home/campana"> <h4>Campaña</h4></a>

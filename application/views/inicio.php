@@ -1,7 +1,7 @@
 
 <?php 
 include('menu.php');
-//include('menu.php');
+
 ?>
 
 <style>
@@ -30,13 +30,18 @@ include('menu.php');
     text-align: center;
 }
 
+
 .price .grey {
-    background-color: #eee;
+    background-color: #f4f4f4;
     font-size: 20px;
 }
 
+.dark-grey{
+    background-color:#9a999e; 
+}
+
 .price .green {
-    background-color: #8db600;
+    background-color:#cfd74e;
     font-size: 20px;
 } 
 
@@ -82,17 +87,16 @@ include('menu.php');
   background-color:#80a8d9;
   border-color:#80a8d9;
 }
-
-/* .imagen{
-  width:100%;
-} */
+.fondo{
+  margin-top:-20%;
+}
 </style>
 
 
 
 <div class="contenedor-fluid">
-  <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive" >
-  </div>
+  <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive fondo" >
+</div>
   <br>
   <br>
   <br>
@@ -117,13 +121,7 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 
 
 
-<?php 
-///Menu fin
 
- /////////// Carruserl ?>
-<div class="container" align="center"> <h1 style="color:#3380FF";>Un árbol es lo mismo que: </h1></div>
-
-<div style="clear:both; margin:10px" > </div>
 
 		
 
@@ -206,11 +204,11 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
             
             <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
                 <ul class="price">
-    <li class="grey" > <h3 style=" color:green">Árbol con tu nombre </h3></li>
-    <li > <div ><h3 style=" color:grey" >
-          <span class="currency">$</span>50.00 pesos</h3></div></li>
+    <li class="grey" > <h3 style=" color:#cfd74e">México </h3></li>
+    <li class="dark-grey"> <div ><h3 style=" color:white" >
+          <span class="currency">$</span>60.00 pesos</h3></div></li>
     <li >
-        <img src="<?php echo base_url();?>img/gust.jpg" class="img-responsive" >
+        <img src="<?php echo base_url();?>img/luciana_home.jpg" class="img-responsive arbol" >
 </li>
     </ul>
             </div>
@@ -219,11 +217,11 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
             </div>
             <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
                 <ul class="price">
-    <li class="green" > <h3 style=" color:white">Árbol con una frase  </h3></li>
-    <li class="grey"> <div class="pricing-table-price"><h3 style=" color:green">
-          <span class="currency">$</span>99.00 pesos</h3></div></li>
+    <li class="green" > <h3 style=" color:white">Colombia  </h3></li>
+    <li class="grey"> <div class="pricing-table-price"><h3 style=" color:#cfd74e">
+          <span class="currency">$</span>60.00 pesos</h3></div></li>
     <li >
-        <img src="<?php echo base_url();?>img/gust.jpg" class="img-responsive" >
+        <img src="<?php echo base_url();?>img/juliana_home.jpg" class="img-responsive arbol" >
 </li>
     </ul>
 
@@ -255,28 +253,19 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 <img src="<?php echo base_url();?>img/vista.jpg" width="1500"  class="img-responsive">
 </div>
 
-<div style="clear:both; margin:20px" > </div>
+<div style="clear:both;" > </div>
 
 <div class="content clearfix">
   <img src="<?php echo base_url();?>img/patrocinadores.png"  width="1500" class="img-responsive">
     
 </div>
 
-<div style="clear:both; margin:20px" > </div>
+<div style="clear:both;" > </div>
 
   <div class="content clearfix">
 <img src="<?php echo base_url();?>img/tierrita.jpg"  class="img-responsive">
 </div>
 
-
-
-
-
-
-
-
-  
- 
 
 	<?php 
 include('footer.php');
