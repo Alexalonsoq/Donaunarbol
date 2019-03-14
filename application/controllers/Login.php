@@ -31,7 +31,7 @@ $pass =$_POST["pass"];
 $this->load->model('user');
 
 $query= mysqli_query($link,"SELECT * FROM usuario WHERE user= '$user' AND pass='$pass'");
-$query1= mysqli_query($link,"SELECT user FROM usuarios WHERE pass= '$pass' "); 
+$query1= mysqli_query($link,"SELECT user FROM usuario WHERE pass= '$pass' "); 
 
 if(mysqli_num_rows($query)>0){
       
@@ -50,7 +50,7 @@ else {
   echo'
      <script>
         alert("Datos erroneos");
-       location.href="<?php echo base_url();?>login";
+       location.href="http://localhost:8080/Donaunarbol/login";
        </script>
 ';
 
@@ -98,14 +98,14 @@ public function insert_img(){
 
 $config['upload_path'] = './cargas/';
         $config['allowed_types'] = 'gif|jpg|png';
-        $config['max_size'] = '2048';
-        $config['max_width'] = '2024';
-        $config['max_height'] = '2008'; 
+        $config['max_size'] = '5048';
+        $config['max_width'] = '5024';
+        $config['max_height'] = '5008'; 
 
         $this->load->library('upload',$config);
          if (!$this->upload->do_upload("fileImagen")) {
             $data['error'] = $this->upload->display_errors();
-			$this->load->view('cargar');
+			$this->load->view('cargar_persona');
 			
         } else {
 
@@ -165,14 +165,14 @@ public function insert_emp(){
 
 $config['upload_path'] = './cargas/';
         $config['allowed_types'] = 'gif|jpg|png';
-        $config['max_size'] = '2048';
-        $config['max_width'] = '2024';
-        $config['max_height'] = '2008'; 
+        $config['max_size'] = '5048';
+        $config['max_width'] = '5024';
+        $config['max_height'] = '5008'; 
 
         $this->load->library('upload',$config);
          if (!$this->upload->do_upload("fileImagen")) {
             $data['error'] = $this->upload->display_errors();
-			$this->load->view('cargar');
+			$this->load->view('cargar_empresa');
 			
         } else {
 
@@ -228,7 +228,8 @@ public function salir(){
 
 session_start();
 session_destroy();
-header("Location: <?php echo base_url();?>login");
+
+header("Location: http://localhost:8080/Donaunarbol/login");
 exit();
 
 }

@@ -11,7 +11,7 @@ class User extends CI_Model
 
 		$link = mysqli_connect("localhost", "root", "", "imagen");
 
-$query= mysqli_query($link,"SELECT * FROM usuarios WHERE user= '$user' AND pass ='$pass'");
+$query= mysqli_query($link,"SELECT * FROM usuario WHERE user= '$user' AND pass ='$pass'");
 //$query1= mysqli_query($link,"SELECT user FROM usuarios WHERE pass= '$pass' "); 
 
 if (mysqli_num_rows($query)>0){
