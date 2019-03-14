@@ -45,7 +45,7 @@
    <style>
         @font-face {
             font-family: myFont;
-            src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+            src: url(<?php echo base_url();?>img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
         }
         @font-face {
             font-family: myFont2;
@@ -89,7 +89,7 @@
 
 
   <nav id="menu" class="navbar navbar-expand-lg navbar-light  sticky-top" >
-      <a class="navbar-brand logo" href="http://localhost:8080/tree1"> <img src="<?php echo base_url();?>img/logo.png" width="100"></a>
+      <a class="navbar-brand logo" href="<?php echo base_url();?>"> <img src="<?php echo base_url();?>img/logo.png" width="100"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" 
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
           aria-expanded="false" aria-label="Toggle navigation">
@@ -115,7 +115,7 @@
   </li>
    <li class="nav-item">
           
-<a class="btn btn-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=VCT63QQJ8LPGN" target="_self" role="button"><h4>DONA</h4></a>
+<a class="btn btn-primary" href="<?php echo base_url();?>home/dona"  role="button"><h4>DONA</h4></a>
         </li>
 
     </ul>

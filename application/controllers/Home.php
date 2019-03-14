@@ -49,7 +49,13 @@ public function contacto()
 	
 	}
 
+	public function dona()
+	{
+		$this->load->view('menu');
+		$this->load->view('dona');
+		
 	
+	}
 
 	
 

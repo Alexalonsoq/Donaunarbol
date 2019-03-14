@@ -50,7 +50,7 @@ else {
   echo'
      <script>
         alert("Datos erroneos");
-       location.href="http://localhost:8080/tree1/login";
+       location.href="<?php echo base_url();?>login";
        </script>
 ';
 
@@ -69,7 +69,7 @@ public function p()
 	$this->load->view('cargar_persona');
 } else{
 
-header("Location: http://localhost:8080/tree1/login");
+header("Location: <?php echo base_url();?>login");
 	}
 
 }
@@ -86,7 +86,7 @@ public function e()
 } 
 else{
 
-header("Location: http://localhost:8080/tree1/login");
+header("Location: <?php echo base_url();?>login");
 	}
 
 	
@@ -117,7 +117,7 @@ $config['upload_path'] = './cargas/';
            $link = mysqli_connect("localhost", "root", "", "imagen");
 $user1 = htmlspecialchars(trim($_POST['nombre']));
 $ap_p1 = htmlspecialchars(trim($_POST['ap_p']));
-$ap_m1 = htmlspecialchars(trim($_POST['ap_m']));
+
 $id_img1 = htmlspecialchars(trim($_POST['id_img']));
 $email1 = htmlspecialchars(trim($_POST['email']));
 $imagen = htmlspecialchars(trim($file_info['file_name']));
@@ -131,24 +131,27 @@ if(mysqli_num_rows($query)){
     <script>
       alert("El id de imagen ya existe ");
      
-    location.href= "http://localhost:8080/tree1/Login/cargar";
+    location.href= "http://localhost:8080/Donaunarbol/Login/p";
      
     </script>
+
+
 ';
+
  
   } 
 
 
 else {
 
-mysqli_query($link, "INSERT INTO img_personas (nom_p, apellido_p, apellido_m, url_img, id_img, correo) 
-	VALUES('$user1','$ap_p1','$ap_m1','$imagen', '$id_img1','$email1')") or die("<h2>Error Guardando los datos</h2>");
+mysqli_query($link, "INSERT INTO img_personas (nom_p, apellido_p, url_img, id_img, correo) 
+	VALUES('$user1','$ap_p1','$imagen', '$id_img1','$email1')") or die("<h2>Error Guardando los datos</h2>");
   
 
 echo'
     <script>
       alert("Datos guardados");
-     location.href= "http://localhost:8080/tree1/login/cargar";
+     location.href= "http://localhost:8080/Donaunarbol/login/p";
     </script>
 ';
 
@@ -193,7 +196,7 @@ if(mysqli_num_rows($query)){
     <script>
       alert("El id de imagen ya existe ");
      
-    location.href= "http://localhost:8080/tree1/home/carga";
+    location.href= "http://localhost:8080/Donaunarbol/login/e";
      
     </script>
 ';
@@ -210,7 +213,7 @@ mysqli_query($link, "INSERT INTO img_emp (nombre_emp, id_img, correo,  url_img)
 echo'
     <script>
       alert("Datos guardados");
-     location.href= "http://localhost:8080/tree1/home/carga";
+     location.href= "http://localhost:8080/Donaunarbol/login/e";
     </script>
 ';
 
@@ -225,7 +228,7 @@ public function salir(){
 
 session_start();
 session_destroy();
-header("Location: http://localhost:8080/tree1/login");
+header("Location: <?php echo base_url();?>login");
 exit();
 
 }

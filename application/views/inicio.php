@@ -113,7 +113,7 @@ Climático. Nuestra forma de hacerlo es reforestando, ya que cada
 año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 <h2>¡Vamos a recuperarlos!</h2>
 
-<a class="btn btn-primary conoceMas" href="https://donaunarbolalmundo.org/campana/" target="_blank" role="button"> <h2>Conoce más</h2></a>
+<a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
 </div>
 </div>
 <div style="clear:both; margin:25px" > </div>
