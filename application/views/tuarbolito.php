@@ -50,7 +50,7 @@
 } 
 
 .price .blue {
-  background-color: #6495ED;
+  background-color: #80a8d9;
   font-size: 20px;
 }
 .button {
@@ -252,7 +252,7 @@ input{
 <br>
 
 <div class="row justify-content-md-center">
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <ul class="price">
           <li > 
             <div >
@@ -265,22 +265,22 @@ input{
          </ul>
        </div>
       
-       <div class="col-sm-2">
+       <div class="col-sm-3">
             <ul class="price">
               <li class="blue"> 
                 <div >
                   <h3 style=" color:white" >
                     Beneficios de nuestros árboles
                   </h3>
-                  <img src="../img/carita.png" alt="" class="img-responsive">
+                  <img src="../img/carita2.png" alt="" class="img-responsive">
                 </div>
               </li>
              </ul>
          </div>
 
-      <div class="col-sm-2">
+      <div class="col-sm-3">
           <ul class="price">
-            <li > 
+            <li  > 
               <div >
                 <h3 style=" color:#6495ED">
                   Brigadas
