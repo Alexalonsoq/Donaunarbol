@@ -107,15 +107,15 @@ div#body > .div2{
 </div>
 <div class="container-fluid">
 <div class="row justify-content-md-center"> 
-<div class="col-sm-8 align-items-start"  >
+<div class="col-sm-6 align-items-start"  >
  <p>
   
   <br><br>
-  Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma delograrlo es presentándole su árbol
+  <h3>Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma delograrlo es presentándole su árbol
   por  medio de una  fotografia. Cuando  una persona  dona un  árbol al
   mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
   para ser parte del cambio en este planeta y esa voluntad la puede ver
-  cristalizada en el nuevo árbol que dio al mundo. <br><br>
+  cristalizada en el nuevo árbol que dio al mundo.</h3> <br><br>
   <br>
   <br><br><br>
 </p>
