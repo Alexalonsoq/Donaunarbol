@@ -11,6 +11,18 @@
   margin-bottom:10px;
 }
 
+.header{
+  max-width:100%;
+  /* max-height:auto; */
+  heigh:auto;
+  /* display:block; */
+  background: url('../img/patri.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
@@ -94,32 +106,59 @@ div#body > .div2{
   margin: 0 -4px;
 }
 
+.arbol{
+  background-color:rgba(0,0,0,.4);
+  padding:2%;
+  margin:2%;
+  /* height:25%; */
+  color:white;
+}
+
 
 </style>
 
 
 
-<div class=" content clearfix">
+<div class= "header">
+    <div class="container ">
+        <div class="row justify-content-md-center ">
+              <div class="col-md-5  arbol">
 
-
-<!-- <form class="needs-validation" validate>
-    <div class="form-row">
-      <div class="col-md-6 mb-3">
-        <label for="validationTooltip03"></label>
-        <input type="text" class="form-control" id="validationTooltip03" placeholder="Folio de tu árbol" required>
-        <div class="invalid-tooltip">
-          Ingresa un folio válido.
-        </div>
-        <div class="col-md-4 mb-3">
-          <button class="btn btn-primary" type="submit">Buscar</button>
-        </div>
-      </div>
+                <div class="row ">
+                          <div class="col-md-12 align-items-start">
+                              <h3>Busca la foto de tu Árbol</h3>
+                          </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-12  align-items-start">
+                            <p >Inserta el folio que viene al reverso de tu comprobante de donación para que conozcas si tu Árbol ya fue plantado o en que etapa se encuentra.
+                        </div>
+                </div>
+                <form class="needs-validation" validate>
+                          <div class="form-row">
+                            <div class="col-md-8 mb-3">
+                              <label for="validationTooltip03"></label>
+                              <input type="text" class="form-control" id="validationTooltip03" placeholder="Folio de tu árbol" required>
+                              <div class="invalid-tooltip">
+                                Ingresa un folio válido.
+                              </div>
+                              <div class="col-md-2 mb-3">
+                                <button class="btn btn-primary" type="submit">Buscar</button>
+                              </div>
+                            </div>
+                          </div>
+                </form>
+                      <div class="row">
+                            <div class="col-md-12">
+                                <p>Cualquier duda comentario escríbenos a arbolito@donaunarbolalmundo.org</p>
+                            </div>
+                      </div>
+               </div>
+          </div>
     </div>
-  </form> -->
-<img src="../img/patri.jpg" width="100%" height="800" class="img-responsive">
-
- 
 </div>
+
+<!-- <img src="../img/patri.jpg" width="100%" height="800" class="img-responsive"> -->
 
 <div class="container-fluid">
 <div class="row justify-content-md-center"> 
