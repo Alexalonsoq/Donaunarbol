@@ -141,9 +141,9 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner ">
 
-      <div class="item active">
+      <div class="item active ">
         <img src="<?php echo base_url();?>img/1.jpg" alt="img1" class="imagen" >
         <div class="carousel-caption">
           

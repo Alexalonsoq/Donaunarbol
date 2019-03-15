@@ -102,16 +102,32 @@ div#body > .div2{
 <div class=" content clearfix">
 
 
+<!-- <form class="needs-validation" validate>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip03"></label>
+        <input type="text" class="form-control" id="validationTooltip03" placeholder="Folio de tu árbol" required>
+        <div class="invalid-tooltip">
+          Ingresa un folio válido.
+        </div>
+        <div class="col-md-4 mb-3">
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </div>
+      </div>
+    </div>
+  </form> -->
+<img src="../img/patri.jpg" width="100%" height="800" class="img-responsive">
 
-  <img src="../img/patri.jpg" width="100%" height="800" class="img-responsive">
+ 
 </div>
+
 <div class="container-fluid">
 <div class="row justify-content-md-center"> 
 <div class="col-sm-6 align-items-start"  >
  <p>
   
   <br><br>
-  <h3>Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma delograrlo es presentándole su árbol
+  <h3>Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándole su árbol
   por  medio de una  fotografia. Cuando  una persona  dona un  árbol al
   mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
   para ser parte del cambio en este planeta y esa voluntad la puede ver

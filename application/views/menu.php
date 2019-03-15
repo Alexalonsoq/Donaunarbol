@@ -111,7 +111,7 @@
         <a class="nav-link" href="<?php echo base_url();?>home/sus"><h4>Sostenibilidad</h4></a>
       </li>
         <li class="nav-item" >
-    <a class="nav-link" href="<?php echo base_url();?>home/contacto"><h4>Contacto</h4></a>
+    <a class="nav-link" href="#footer"><h4>Contacto</h4></a>
   </li>
    <li class="nav-item">
           

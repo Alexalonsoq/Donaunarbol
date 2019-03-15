@@ -1,6 +1,6 @@
 
 
-<footer class="page-footer font-small "  >
+<footer class="page-footer font-small " id="footer" >
 <div class="feature-wrapper p-3  bg-light text-dark">
     <div style="clear:both; margin:100px" > </div>
 
