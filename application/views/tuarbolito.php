@@ -99,22 +99,15 @@ div#body > .div2{
 
 
 
-<div class="content clearfix">
+<div class=" content clearfix">
 
 
 
-  <img src="../img/patri.jpg" width="1400" height="800" class="img-responsive">
-
-
+  <img src="../img/patri.jpg" width="100%" height="800" class="img-responsive">
 </div>
-
-<div class="row ">
-
-<!-- <div class="col-sm-3">
-  <h3> </h3>
-</div> -->
-
-<div class="col-sm-8" >
+<div class="container-fluid">
+<div class="row justify-content-md-center"> 
+<div class="col-sm-8 align-items-start"  >
  <p>
   
   <br><br>
@@ -125,17 +118,23 @@ div#body > .div2{
   cristalizada en el nuevo árbol que dio al mundo. <br><br>
   <br>
   <br><br><br>
-
-</h3>
 </p>
 </div>
-
+</div>
 </div>
 
 
+<!-- <div class="col-sm-3">
+  <h3> </h3>
+</div> -->
 
-<div style="clear:both; margin:10px" > </div>
-<div style="clear:both; margin:10px" > </div>
+
+
+
+
+
+
+
 
 
 
