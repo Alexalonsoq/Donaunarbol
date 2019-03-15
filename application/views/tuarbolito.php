@@ -235,17 +235,15 @@ input{
 
 <br>
 
-<div class="container-fluid">
+<div class="container">
 <div class="row justify-content-md-center"  >
- <div class="col-sm-3">
- <h1 style="color:#3380FF";>Tu arbolito </h1>
+ <div class="col-sm-9">
+ <div class="row">
+   <div class="col-sm-3">
+      <h1 style="color:#80a8d9";>Tu arbolito </h1>
+   </div>
  </div>
- <div class="col-sm3">
-
- </div>
- <div class="col-sm-3">
-
- </div>
+</div>
 </div>
   
 <br>
@@ -270,7 +268,7 @@ input{
               <li class="blue"> 
                 <div >
                   <h3 style=" color:white" >
-                    Beneficios de nuestros árboles
+                    Beneficios de los árboles
                   </h3>
                   <img src="../img/carita2.png" alt="" class="img-responsive">
                 </div>
