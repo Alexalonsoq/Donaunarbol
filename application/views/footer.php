@@ -1,7 +1,7 @@
 
 
 <footer class="page-footer font-small "  >
-<div class="feature-wrapper p-3 mb-2 bg-light text-dark">
+<div class="feature-wrapper p-3  bg-light text-dark">
     <div style="clear:both; margin:100px" > </div>
 
     <div class="container">
@@ -39,6 +39,9 @@
                 <br>
 
             <ul class="list-unstyled">
+            <li><h6>
+                <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">•  Nuestro canal <p>&nbsp;</p></a></h6>
+              </li>
               <li><h6>
   
                 <a href="http://portalsocial.mx/" target="_blank"> •  www.portalsocial.mx <p>&nbsp;</p></a></h6>
