@@ -63,22 +63,8 @@
   font-size: 18px;
 }
 
-.graph {
-  position: relative; /* IE is dumb */
-  width: 500px;
 
-  padding: 2px;
-}
-.graph .bar {
-  display: block;
-  position: relative;
-  background: #00BFFF;
-  text-align: center;
-  color: #333;
-  height: 2em;
-  line-height: 2em;
-}
-.graph .bar span { position: absolute; left: 1em; }
+
 
 
 @media only screen and (max-width: 600px) {
@@ -87,31 +73,52 @@
   }
 }
 
-
-div#body {
-  display: inline-block;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #4800ff;
+@media only screen and (min-width:900px) {
+  .header {
+    height: 500px;
+  }
 }
 
-div#body > .div1 {
-  display: inline-block;
-  padding: 20px;
-  background: #4800ff;
-  color: #fff;
-}
 
-div#body > .div2{
-  margin: 0 -4px;
-}
+
+
 
 .arbol{
   background-color:rgba(0,0,0,.4);
   padding:2%;
-  margin:2%;
-  /* height:25%; */
+  margin:10% 0%;
+  padding-bottom:4%;
   color:white;
+}
+
+#buscar{
+  width:100%;
+  height:100%;
+  background-color:black;
+  border-color:black;
+  border-radius:0;
+}
+
+.input{
+  margin:0;
+  padding:0;
+  border-radius:0;
+}
+
+.formulario{
+  padding:0;
+  background-color:blue;
+}
+
+
+.boton{
+  height:130%;
+  background-color:yellow;
+  padding:0;
+}
+
+input{
+  border-radius:0;
 }
 
 
@@ -129,27 +136,29 @@ div#body > .div2{
                               <h3>Busca la foto de tu Árbol</h3>
                           </div>
                 </div>
+                <br>
                 <div class="row">
                         <div class="col-md-12  align-items-start">
                             <p >Inserta el folio que viene al reverso de tu comprobante de donación para que conozcas si tu Árbol ya fue plantado o en que etapa se encuentra.
                         </div>
                 </div>
-                <form class="needs-validation" validate>
-                          <div class="form-row">
-                            <div class="col-md-8 mb-3">
-                              <label for="validationTooltip03"></label>
-                              <input type="text" class="form-control" id="validationTooltip03" placeholder="Folio de tu árbol" required>
-                              <div class="invalid-tooltip">
-                                Ingresa un folio válido.
-                              </div>
-                              <div class="col-md-2 mb-3">
-                                <button class="btn btn-primary" type="submit">Buscar</button>
-                              </div>
-                            </div>
-                          </div>
+                <br>
+               <div class="row no-gutters">
+               <div class="col-md-12 align-items-start">
+               <form class="needs-validation" novalidate>
+                 <div class="col-md-9 input">
+                 <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="folio" placeholder="Folio de tu Árbol">
+                 </div>
+                 <div class="col-md-3 boton">
+                 <button type="submit" class="btn btn-primary" id="buscar">Buscar</button>
+                 </div>
+               
                 </form>
+               </div>
+               </div>
+               <br>
                       <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 align-items-start">
                                 <p>Cualquier duda comentario escríbenos a arbolito@donaunarbolalmundo.org</p>
                             </div>
                       </div>
