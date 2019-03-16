@@ -112,7 +112,7 @@
 
 
 .boton{
-  height:130%;
+  height:34px;
   background-color:yellow;
   padding:0;
 }
@@ -120,7 +120,10 @@
 input{
   border-radius:0;
 }
-
+.form-control{
+  border-radius:0;
+  border:none;
+}
 
 </style>
 
