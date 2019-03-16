@@ -125,6 +125,7 @@ input{
   border:none;
 }
 
+
 </style>
 
 
@@ -238,7 +239,7 @@ input{
 
 <br>
 
-<div class="container">
+<div class="container colorGray">
 <div class="row justify-content-md-center"  >
  <div class="col-sm-9">
  <div class="row">

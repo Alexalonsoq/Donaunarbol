@@ -95,7 +95,7 @@ include('menu.php');
 
 
 <div class="contenedor-fluid">
-  <img src="<?php echo base_url();?>img/fondo1.jpg" width="1500"  class="img-responsive fondo" >
+  <img src="<?php echo base_url();?>img/fondo.jpg" width="1500"  class="img-responsive fondo" >
 </div>
   <br>
   <br>
