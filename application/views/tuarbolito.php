@@ -63,10 +63,6 @@
   font-size: 18px;
 }
 
-
-
-
-
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;

@@ -14,6 +14,18 @@ include('menu.php');
     margin-bottom:10px;
 }
 
+.header{
+  max-width:100%;
+  /* max-height:auto; */
+  heigh:auto;
+  /* display:block; */
+  background: url('img/fondo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .price:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
@@ -88,14 +100,87 @@ include('menu.php');
   border-color:#80a8d9;
 }
 .fondo{
-  margin-top:-20%;
+  /* margin-top:-20%; */
 }
+
+@media only screen and (min-width:900px) {
+  .header {
+    height: 500px;
+  }
+}
+
+.callToAction{
+  margin-top:10%;
+  color:white;
+  text-shadow:2px 2px 6px black;
+}
+
+.callToAction h1{
+  font-size:4.5em;
+  font-weight:bold;
+}
+
+.regala{
+  background-color:rgba(255,255,255,.3);
+}
+
+.regala h3{
+  color:#80a8d9;
+  font-weight:bold;
+  font-size:2.5em;
+}
+
+.dona{
+  margin-top:10%;
+  width:100%;
+}
+
+#topRank{
+  color:white;
+  background-color:black;
+  height:500px;
+}
+
+.topRank{
+  margin-top:2%;
+}
+
+
 </style>
 
 
 
-<div class="contenedor-fluid">
+<!-- <div class="contenedor-fluid">
   <img src="<?php echo base_url();?>img/fondo.jpg" width="1500"  class="img-responsive fondo" >
+</div> -->
+
+<div class= "header">
+    <div class="container ">
+        <div class="row justify-content-start ">
+              <div class="col-md-8  arbol">
+
+                <div class="row ">
+                          <div class="col-md-12 align-items-center callToAction">
+                              <h1>¡Tu participación es importante!</h1>
+                          </div>
+                </div>
+                <br>
+                <div class="row">
+                        <div class="col-md-5  align-items-center regala">
+                            <h3>Regala un árbol al mundo</h3>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-md-3  align-items-center ">
+                        <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" "><h4>DONA</h4></a>
+                        </div>
+                </div>
+                <br>
+               
+               </div>
+          </div>
+    </div>
 </div>
   <br>
   <br>
@@ -109,8 +194,8 @@ include('menu.php');
    <br>
      <div class="col-md-4"></div>
   <div class="col-md-4" align="center"> <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
-Climático. Nuestra forma de hacerlo es reforestando, ya que cada
-año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
+Climático y nuestra forma de hacerlo es plantando árboles, ya que cada
+año se pierden mas de 15 mil millones.</h3>
 <h2>¡Vamos a recuperarlos!</h2>
 
 <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
@@ -197,9 +282,11 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
     <div class="container">
         <div class="row">
             
-          <div class="col-sm-4" style="color:black";>  <h2>Por esto queremos invitarte a que dones un Árbol al mundo</h2>
- <h3 style="color:grey"> Así podrás recibir un email con la foto de tu arbolito </h3>
- <h3 style="color:grey"> Recuerda que con esta donación no solo contribuiras al medio ambiente, sino que también ayudarás a empoderar a las comunidades participantes en nuestra campaña. </h3>
+          <div class="col-sm-4" style="color:black";>  <h2>Por eso queremos invitarte a Donar un Árbol al Mundo</h2>
+          <br>
+ <h3 style="color:grey"> Así podrás recibir la foto de tu árbol por correo electrónico o descargarla en nuestra página</h3>
+ <br>
+ <h3 style="color:grey"> Recuerda que con esta donación no solo contribuiras al medio ambiente, sino que también ayudarás a empoderar personas de muchas comunidades con rezago social </h3>
  </div>
             
             <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
@@ -229,19 +316,27 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
         </div>
     </div>
 </div>
+
+<div class="container-fluid" id="topRank">
+  <div class="row justify-content-center">
+    <div class="col-md-12 align-items-center">
+        <h1 align="center " class="topRank">Top rank donadores</h1>
+    </div>
+  </div>
+</div>
   
 
-<div class="p-3 mb-2 bg-light">
+<div class=" mb-2 bg-light">
   <ul class="price">
-    <li  style=" color:grey" > <h1 >Esta es una campaña llevada acabo por el portal social, The Tree School </h1>
-    <h1> y el vivero Río Blanco, en donde trabajan juntos para lograr el objetivo </h1>
-    <h1> de reforestar más de 50 mil árboles para el 2020.</h1>
+    <li  style=" color:grey" > <h1 >Esta campaña es llevada a cabo por el Portal Social, The Tree School </h1>
+    <h1> y muchas comunidades en México y Colombia; todos juntos trabajan para lograr el objetivo de plantar </h1>
+    <h1> más de 50 mil árboles para el 2020.</h1>
      </li>
      <li>
     	<div class="container-fluid" align="center">
-  			<img src="<?php echo base_url();?>img/treeschool1.jpg" width="200" height="200" style="margin: 0 -15px" >
-  			<img src="<?php echo base_url();?>img/portal-social.jpg" width="200" height="200" style="margin: 0 -15px">
-  			<img src="<?php echo base_url();?>img/sierra.png" width="200" height="200" style="margin: 0 -15px">
+  			<img src="<?php echo base_url();?>img/treeschool2.png" width="200" height="200"  >
+  			<img src="<?php echo base_url();?>img/portal-social2.png" width="200" height="200" >
+  			<img src="<?php echo base_url();?>img/sierra2.png" width="200" height="200" >
   		</div>
 </li>
     
@@ -254,9 +349,20 @@ año se pierden mas de 15 mil millones de árboles en el planeta.</h3>
 </div>
 
 <div style="clear:both;" > </div>
+<br>
+<br>
+<div class="container">
+  <div class="row  justify-content-center">
+    <div class="col-md-12">
+      <h1 align="center "  style=" color:grey" >
+        Gracias a miles de donadores este proyecto es posible, entre ellos, valiosas empresas e instituciones que han ayudado a nuestra casusa de manera muy especial
+      </h1>
+    </div>
+  </div>
+</div>
 
 <div class="content clearfix">
-  <img src="<?php echo base_url();?>img/patrocinadores.png"  width="1500" class="img-responsive">
+  <img src="<?php echo base_url();?>img/patrocinadores2.jpg"  width="1500" class="img-responsive">
     
 </div>
 
