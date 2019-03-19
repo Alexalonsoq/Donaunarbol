@@ -214,7 +214,7 @@ input{
  <img src="../img/germa.jpg"   width="500" class="img-responsive">
 </div>
 <div class="col-sm-4 " >
-  <img src="../img/val.jpg"    width="500" class="img-responsive">
+  <img src="../img/e042 _GUSTAVO.jpeg"    width="500" class="img-responsive">
 </div>
 
 </div>

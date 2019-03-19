@@ -201,23 +201,34 @@
 <br>
 <div class="container-fluid" style="background-color: #f4f4f4;">
   <br> <br> <br> <br>
-  <div class="row" >
-    <div class="col-sm-4">
-      <h2 style="color: black" align="center">Vídeo</h2>
-      <p><h4>
-        Conoce como funciona la campaña y como puedes 
-      </h4></p>
-      <p><h4>ser parte de ella. Por favor  ayúdanos a compartir</h4></p>
-      <p><h4>este vídeo para causar un impacto muy grande.</h4></p>
+  
+  <div class="row justify-content-end" >
+  
+    <div class="col-md-3 align-items-center">
+    <h1 align="center">Vídeo</h1>
+    <br>
+     <div class="row justify-content-start">
+     <div class="col-md-12 d-flex align-items-md-center">
+      <h3>
+         Conoce cómo funciona la campaña y como puedes
+        ser parte de ella. Ayúdanos a compartir
+        este vídeo para causar un impacto muy grande. 
+      </h3> 
+      </div>
+     </div>
     </div>
-    <div class="col-sm-8" style="background-color:#f4f4f4;"><br>
+    <div class="col-sm-7" style="background-color:#f4f4f4;"><br>
       <iframe  class="video "src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
       </iframe>
-      <br><br>
+      <br><br><br><br>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
 </div>
 <div>
+  
   <img src="../img/pexels-photo.jpg" width="1500" height="500" class="img-responsive">    
 </div>
 
