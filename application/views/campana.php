@@ -73,8 +73,29 @@
 </div>
 <div class="container text-center">    
 <br>
+
+
 <div class="row">
+
+  <div class="col-sm-2"></div>
+
+  <div class="col-sm-3">
+    <h3 style="color:black"> 
+       Campaña
+  </div>
+    <div class="col-sm-3"></div>
+</div>
+</div>
+
+
+
+
+<div class="container text-center">    
+<br>
+<div class="row">
+
   <div class="col-sm-3"></div>
+
   <div class="col-sm-6">
     <h3 style="color:black"> 
       <p align="justify"> 

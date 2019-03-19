@@ -145,15 +145,17 @@ input{
                 <br>
                <div class="row no-gutters">
                <div class="col-md-12 align-items-start">
-               <form class="needs-validation" novalidate>
+
+               <form class="needs-validation" novalidate  action="../buscar" method="POST">
                  <div class="col-md-9 input">
-                 <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="folio" placeholder="Folio de tu Árbol">
+                 <input type="text" class="form-control " id="folio" aria-describedby="folio" placeholder="Folio de tu Árbol" name="folio">
                  </div>
                  <div class="col-md-3 boton">
-                 <button type="submit" class="btn btn-primary" id="buscar">Buscar</button>
+                 <button type="submit" class="btn btn-primary" id="buscar" >Buscar</button>
                  </div>
                
                 </form>
+
                </div>
                </div>
                <br>
@@ -294,7 +296,7 @@ input{
 
  
 
-  <!-- <div style="clear:both; margin:10px" > </div> -->
+  
 
 
 
@@ -354,7 +356,7 @@ input{
 
 
 
-
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 
 
