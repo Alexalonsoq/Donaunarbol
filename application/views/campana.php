@@ -229,7 +229,7 @@
 </div>
 <div>
   
-  <img src="../img/pexels-photo.jpg" width="1500" height="500" class="img-responsive">    
+  <img src="../img/pexels-photo.jpg"  height="500" class="img-responsive">    
 </div>
 
 <?php 

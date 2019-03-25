@@ -344,11 +344,15 @@ año se pierden mas de 15 mil millones.</h3>
 </div>
 
 
-<div class="content clearfix">
-<img src="<?php echo base_url();?>img/vista.jpg" width="1500"  class="img-responsive">
+<div class="container-fluid ">
+  <div class="row">
+    <div class="col-lg-12">
+        <img src="<?php echo base_url();?>img/vista.jpg" width="3500px"  class="img-responsive">
+    </div>
+  </div>
 </div>
 
-<div style="clear:both;" > </div>
+<!-- <div style="clear:both;" > </div> -->
 <br>
 <br>
 <div class="container">
@@ -362,7 +366,7 @@ año se pierden mas de 15 mil millones.</h3>
 </div>
 
 <div class="content clearfix">
-  <img src="<?php echo base_url();?>img/patrocinadores2.jpg"  width="1500" class="img-responsive">
+  <img src="<?php echo base_url();?>img/patrocinadores2.jpg"   class="img-responsive">
     
 </div>
 

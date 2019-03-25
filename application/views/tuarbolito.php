@@ -207,14 +207,14 @@ input{
 
 <div class="row  no-gutters"  >
  
- <div class=" col-sm-4 ">
-  <img src="../img/gust.jpg"   width="600"  class="img-responsive">
+ <div class=" col-sm-4 col-lg-4">
+  <img src="../img/gust.jpg"    class="img-responsive">
 </div>
-<div class="col-sm-4 " >
- <img src="../img/germa.jpg"   width="500" class="img-responsive">
+<div class="col-sm-4 col-lg-4 " >
+ <img src="../img/germa.jpg"   class="img-responsive">
 </div>
-<div class="col-sm-4 " >
-  <img src="../img/e042 _GUSTAVO.jpeg"    width="500" class="img-responsive">
+<div class="col-sm-4 col-lg-4 " >
+  <img src="../img/e042 _GUSTAVO.jpeg"     class="img-responsive">
 </div>
 
 </div>
@@ -250,7 +250,7 @@ input{
 <br>
 
 <div class="row justify-content-md-center">
-      <div class="col-sm-3">
+      <div class="col-sm-3 col-lg-4">
         <ul class="price">
           <li > 
             <div >
@@ -263,7 +263,7 @@ input{
          </ul>
        </div>
       
-       <div class="col-sm-3">
+       <div class="col-sm-3 col-lg-4">
             <ul class="price">
               <li class="blue"> 
                 <div >
@@ -276,7 +276,7 @@ input{
              </ul>
          </div>
 
-      <div class="col-sm-3">
+      <div class="col-sm-3 col-lg-4">
           <ul class="price">
             <li  > 
               <div >
@@ -322,7 +322,7 @@ input{
 
 
 
-  <img src="../img/brigada.jpg" width="1400" height="800" class="img-responsive">
+  <img src="../img/brigada.jpg"  height="800" class="img-responsive">
 
 
 </div>
