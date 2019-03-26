@@ -77,6 +77,53 @@
     <img src="../img/biology-blur-close-up.jpg" height="500" class="img-responsive">
   </div>
 </div>
+<!-- <<<<<<< HEAD
+<div class="container text-center">    
+<br>
+
+
+<div class="row">
+
+  <div class="col-sm-2"></div>
+
+  <div class="col-sm-3">
+    <h3 style="color:black"> 
+       Campaña
+  </div>
+    <div class="col-sm-3"></div>
+</div>
+</div>
+
+
+
+
+<div class="container text-center">    
+<br>
+<div class="row">
+
+  <div class="col-sm-3"></div>
+
+  <div class="col-sm-6">
+    <h3 style="color:black"> 
+      <p align="justify"> 
+  Dona un Árbol al mundo es una campaña de reforestación y empoderamiento social que se
+  suma a esfuerzos internacionales por frenar el cambio climático. Surgió en Julio de 2017
+  por la iniciativa del Portal Social, The Tree School y el Vivero Rio Blanco, en donde trabajan
+  juntos para lograr el objetivo de reforestar más de 50 árboles para el 2020. 
+      </p>
+      <p align="justify">
+        Por ello esta campaña esta convocando a personas, empresas y gobierno para que hagan
+        conciencia de los retos ambientales que enfrentamos, conozcan los beneficios que un
+        árbol trae al mundo y se sumen a apoyar nuestra causa.
+      </p>
+      <p align="justify">
+        Los árboles de esta campaña son plantados en la reserva de la Biosfera de la Sierra
+        Gorda en Querétaro, aunque pronto serán plantados también en los estados de Jalisco,
+        Puebla y Veracruz. Nuestro objetivo final es el extender la campaña no solo a estos estados,
+        queremos replicarla internacionalmente.
+      </p>
+    </h3>
+=======
 <!-- <div class="container text-center">     -->
   <br>
   <br>
@@ -229,7 +276,7 @@
 </div>
 <div>
   
-  <img src="../img/pexels-photo.jpg"  height="500" class="img-responsive">    
+  <img src="../img/pexels-photo.jpg" width="2500" height="500" class="img-responsive">    
 </div>
 
 <?php 
