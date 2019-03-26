@@ -52,7 +52,7 @@
 .graph .bar span { position: absolute; left: 1em; }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
   .columns {
     width: 100%;
   }
