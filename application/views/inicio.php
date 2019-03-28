@@ -190,90 +190,39 @@ include('menu.php');
 
 
 <div class="container" align="center">
-   <h1 color="blue">Necesitamos tu ayuda</h1>
-   <br>
-     <div class="col-md-4"></div>
-  <div class="col-md-4" align="center"> <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
-Climático y nuestra forma de hacerlo es plantando árboles, ya que cada
-año se pierden mas de 15 mil millones.</h3>
-<h2>¡Vamos a recuperarlos!</h2>
-
-<a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
-</div>
-</div>
-<div style="clear:both; margin:25px" > </div>
-<div style="clear:both; margin:25px" > </div>
-
-
-
-
-
-		
-
-
-
-
-  
-<div class="container-fluid" >
-  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner ">
-
-      <div class="item active ">
-        <img src="<?php echo base_url();?>img/1.jpg" alt="img1" class="imagen" >
-        <div class="carousel-caption">
-          
+    <div class="row justify-content-md-center">
+        <div class="col-md-8">
+            <h1 color="blue">Necesitamos tu ayuda</h1>
         </div>
-      </div>
-
-      <div class="item">
-        <img src="<?php echo base_url();?>img/2.jpg" alt="img2" >
-        <div class="carousel-caption">
-          
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="<?php echo base_url();?>img/3.jpg" alt="img5" >
-        <div class="carousel-caption">
-          
-      </div>
-      </div>
-      
-      <div class="item">
-        <img src="<?php echo base_url();?>img/4.jpg" alt="img5" >
-        <div class="carousel-caption">
-          
-        </div>
-      </div>
-
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Siguiente</span>
-    </a>
+    <br>
+    <div class="row justify-content-md-center">
+        <div class="col-md-8" align="center"> 
+            <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
+        Climático y nuestra forma de hacerlo es plantando árboles, ya que cada
+        año se pierden mas de 15 mil millones.</h3>
+         <h2>¡Vamos a recuperarlos!</h2>
+         </div>
+    </div>
+<br>
+  <div class="row justify-content-md-center">
+      <div class="col-md-8">
+           <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
+      </div>
   </div>
 </div>
-
-<div style="clear:both; margin:50px" > </div>
+<br>
+<br>
   
 
-
+        <div class="row  no-gutters">
+            <div class="col-sm-3"><img src="<?php echo base_url();?>img/1.jpg" alt="img1" class="img-responsive" ></div>
+            <div class="col-sm-3"><img src="<?php echo base_url();?>img/2.jpg" alt="img2" class="img-responsive" ></div>
+            <div class="col-sm-3"><img src="<?php echo base_url();?>img/4.jpg" alt="img5" class="img-responsive"></div>
+            <div class="col-sm-3"><img src="<?php echo base_url();?>img/3.jpg" alt="img5" class="img-responsive" ></div>
+        </div>       
+<br>
+<br>
 <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
                 
             </div>

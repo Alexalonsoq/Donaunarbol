@@ -121,6 +121,10 @@ input{
   border:none;
 }
 
+.bigPadding{
+  padding:5% 0;
+}
+
 
 </style>
 
@@ -173,11 +177,11 @@ input{
 
 <div class="container-fluid">
 <div class="row justify-content-md-center"> 
-<div class="col-sm-6 align-items-start"  >
+<div class="col-sm-6 align-items-start bigPadding"  >
  <p>
   
   <br><br>
-  <h3>Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándole su árbol
+  <h3 class="text-justify">Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándole su árbol
   por  medio de una  fotografia. Cuando  una persona  dona un  árbol al
   mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
   para ser parte del cambio en este planeta y esa voluntad la puede ver
@@ -188,24 +192,6 @@ input{
 </div>
 </div>
 </div>
-
-
-<!-- <div class="col-sm-3">
-  <h3> </h3>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="row  no-gutters"  >
  
@@ -221,17 +207,6 @@ input{
 
 </div>
 
-
-
-
-
-
-
-
-<?php 
- /////////// Tu arbolito: 
-
-?>
 <br>
 <br>
 

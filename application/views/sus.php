@@ -96,7 +96,7 @@ body{
       <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350" class="video"> 
       </iframe>
       <br>
-       <div class="col-sm-8 texto">
+       <div class="col-sm-8 texto ">
        <p>
           La reforestación de la zona ha significado una mejora inmediata en la calidad
           del suelo, el cual al ser poco profundo tiende a erosionarse y volcerse infértil
