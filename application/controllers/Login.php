@@ -6,7 +6,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Login extends CI_Controller
 {
-	
+	public function __construct(){
+    parent::__construct();
+    $this->load->model("Imagenes_model");
+  }
+
 	public function index()
 	{
 		$this->load->view('log');
@@ -16,7 +20,7 @@ class Login extends CI_Controller
 
 	public function valida()
 	{
-		$link = mysqli_connect("localhost", "root", "", "imagen");
+		$link = mysqli_connect("localhost", "root", "", "imagen_prueba");
 $this->load->library('session');
 
   
@@ -39,7 +43,7 @@ if(mysqli_num_rows($query)>0){
        $_SESSION['user'] = ['user'];
         
        
-       $this->load->view('cargar_persona');
+       $this->load->view('imagenes');
         
   
 } 
@@ -62,166 +66,74 @@ else {
 	}
 
 
-public function p()
-	{
-		if (isset($_SESSION["user"])) {
-	
-	$this->load->view('cargar_persona');
-} else{
-
-header("Location: <?php echo base_url();?>login");
-	}
-
-}
-
-		
-public function e()
-	{
-		
-	
-		
-				if (isset($_SESSION["user"])) {
-	$this->load->view('cargar_empresa');
-	
-} 
-else{
-
-header("Location: <?php echo base_url();?>login");
-	}
-
-	
-	}
 
 
 
-public function insert_img(){
+  public function subir(){
+    
+    //print_r($_FILES);
+    $this->load->library("upload");
+    $config = array(
+      "upload_path" => "./assets/images",
+      'allowed_types' => "jpg|png"
+    );
+    $variablefile= $_FILES;
+    $info = array();
+    $files = count($_FILES['archivo']['name']);
+    $nombre= htmlspecialchars(trim($_POST['name_emp']));
 
-$config['upload_path'] = './cargas/';
-        $config['allowed_types'] = 'gif|jpg|png';
-        $config['max_size'] = '5048';
-        $config['max_width'] = '5024';
-        $config['max_height'] = '5008'; 
+    for ($i=0; $i < $files; $i++) { 
+      $_FILES['archivo']['name'] = $variablefile['archivo']['name'][$i];
+      $_FILES['archivo']['type'] = $variablefile['archivo']['type'][$i];
+      $_FILES['archivo']['tmp_name'] = $variablefile['archivo']['tmp_name'][$i];
+      $_FILES['archivo']['error'] = $variablefile['archivo']['error'][$i];
+      $_FILES['archivo']['size'] = $variablefile['archivo']['size'][$i];
+      $this->upload->initialize($config);
+      if ($this->upload->do_upload('archivo')) {
 
-        $this->load->library('upload',$config);
-         if (!$this->upload->do_upload("fileImagen")) {
-            $data['error'] = $this->upload->display_errors();
-			$this->load->view('cargar_persona');
-			
-        } else {
+        $data = array("upload_data" => $this->upload->data());
+        $datos = array(
+           
+          "name" => $data['upload_data']['file_name'],
+          "nombre_empresa"  =>$nombre
+        );
+        if ($this->Imagenes_model->guardar($datos)) {
+          //echo "Registro guardado";
+          $info[$i] = array(
 
-
-
-
-  $file_info = $this->upload->data();
-
-           $link = mysqli_connect("localhost", "root", "", "imagen");
-$user1 = htmlspecialchars(trim($_POST['nombre']));
-$ap_p1 = htmlspecialchars(trim($_POST['ap_p']));
-
-$id_img1 = htmlspecialchars(trim($_POST['id_img']));
-$email1 = htmlspecialchars(trim($_POST['email']));
-$imagen = htmlspecialchars(trim($file_info['file_name']));
+            "archivo" => $data['upload_data']['file_name'],
+            "mensaje" => "Archivo subido y guardado"
             
-            
-$query= mysqli_query($link,"SELECT id_img FROM img_personas WHERE id_img = '$id_img1' ");
-//$result = mysqli_db_query($datos[3],$query,$link);
-if(mysqli_num_rows($query)){
+          );
+        }
+        else{
+          echo "Error al intentar guardar la informacion";
+          $info[$i] = array(
+            "archivo" => $data['upload_data']['file_name'],
+            "mensaje" => "Archivo subido pero no guardado guardado"
+          );
+        }
+      }
+      else{
+        //echo $this->upload->display_errors();
+        $info[$i] = array(
+            "archivo" => $_FILES['archivo']['name'],
+            "mensaje" => "Archivo no subido ni guardado"
+        );
+      }
+    }
 
-  echo'
-    <script>
-      alert("El id de imagen ya existe ");
+    $envio = "";
+    foreach ($info as $key) {
+      $envio .= "Archivo : ".$key['archivo']." - ".$key["mensaje"]."\n";
+    }
+    echo $envio
+    ;
      
-    location.href= "http://localhost:8080/Donaunarbol/Login/p";
-     
-    </script>
+
+  }
 
 
-';
-
- 
-  } 
-
-
-else {
-
-mysqli_query($link, "INSERT INTO img_personas (nom_p, apellido_p, url_img, id_img, correo) 
-	VALUES('$user1','$ap_p1','$imagen', '$id_img1','$email1')") or die("<h2>Error Guardando los datos</h2>");
-  
-
-echo'
-    <script>
-      alert("Datos guardados");
-     location.href= "http://localhost:8080/Donaunarbol/login/p";
-    </script>
-';
-
-
-}
-}
-
-}
-
-public function insert_emp(){
-
-$config['upload_path'] = './cargas/';
-        $config['allowed_types'] = 'gif|jpg|png';
-        $config['max_size'] = '5048';
-        $config['max_width'] = '5024';
-        $config['max_height'] = '5008'; 
-
-        $this->load->library('upload',$config);
-         if (!$this->upload->do_upload("fileImagen")) {
-            $data['error'] = $this->upload->display_errors();
-			$this->load->view('cargar_empresa');
-			
-        } else {
-
-
-
-
-  $file_info = $this->upload->data();
-
-           $link = mysqli_connect("localhost", "root", "", "imagen");
-$name = htmlspecialchars(trim($_POST['nombre']));
-$id_img1 = htmlspecialchars(trim($_POST['id_img']));
-$email1 = htmlspecialchars(trim($_POST['email']));
-$imagen = htmlspecialchars(trim($file_info['file_name']));
-            
-            
-$query= mysqli_query($link,"SELECT id_img FROM img_emp WHERE id_img = '$id_img1' ");
-//$result = mysqli_db_query($datos[3],$query,$link);
-if(mysqli_num_rows($query)){
-
-  echo'
-    <script>
-      alert("El id de imagen ya existe ");
-     
-    location.href= "http://localhost:8080/Donaunarbol/login/e";
-     
-    </script>
-';
- 
-  } 
-
-
-else {
-
-mysqli_query($link, "INSERT INTO img_emp (nombre_emp, id_img, correo,  url_img) 
-	VALUES('$name', '$id_img1','$email1','$imagen')") or die("<h2>Error Guardando los datos</h2>");
-  
-
-echo'
-    <script>
-      alert("Datos guardados");
-     location.href= "http://localhost:8080/Donaunarbol/login/e";
-    </script>
-';
-
-
-}
-}
-
-}
 
 public function salir(){
 
