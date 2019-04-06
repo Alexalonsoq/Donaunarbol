@@ -144,7 +144,9 @@ include('menu.php');
 .topRank{
   margin-top:2%;
 }
-
+.logos{
+  background-color:#f4f4f4;
+}
 
 </style>
 
@@ -275,30 +277,31 @@ include('menu.php');
 </div>
   
 
-<div class=" mb-2 bg-light">
-  <ul class="price">
-    <li  style=" color:grey" > <h1 >Esta campaña es llevada a cabo por el Portal Social, The Tree School </h1>
-    <h1> y muchas comunidades en México y Colombia; todos juntos trabajan para lograr el objetivo de plantar </h1>
-    <h1> más de 50 mil árboles para el 2020.</h1>
-     </li>
-     <li>
-    	<div class="container-fluid" align="center">
-  			<img src="<?php echo base_url();?>img/treeschool2.png" width="200" height="200"  >
-  			<img src="<?php echo base_url();?>img/portal-social2.png" width="200" height="200" >
-  			<img src="<?php echo base_url();?>img/sierra2.png" width="200" height="200" >
+<div class="container-fluid logos">
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+        <br>
+        <br>
+          <h1 align="center"   style=" color:grey" >
+              Esta campaña es llevada a cabo por el Portal Social, The Tree School 
+              y muchas comunidades en México y Colombia; todos juntos trabajan para lograr el objetivo de plantar
+              más de 50 mil árboles para el 2020
+          </h1>
+        </div>
+    </div>
+    <br>
+    	<div class="content clearfix ">
+  			<img src="<?php echo base_url();?>img/logosSocial.png"  width="3500px"  class="img-responsive"> 
   		</div>
-</li>
-    
-  </ul>
+
 </div>
 
 
-<div class="container-fluid ">
-  <div class="row">
-    <div class="col-lg-12">
-        <img src="<?php echo base_url();?>img/vista.jpg" width="3500px"  class="img-responsive">
-    </div>
-  </div>
+<div class="content clearfix ">
+  
+        <img src="<?php echo base_url();?>img/vistaRecortada.jpg" width="3500px"  class="img-responsive">
+   
 </div>
 
 <!-- <div style="clear:both;" > </div> -->

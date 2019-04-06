@@ -64,7 +64,8 @@
                  <h4 class="text-uppercase">NOSOTROS</h4>
                  <br>
                  <br>
-          <div class=""> <h6>Dona un Árbol al Mundo es una campaña de reforestación y empoderamiento social que se suma a esfuerzos internacionales para frenar
+          <div class=""> <h6>Dona un Árbol al Mundo es una campaña de restauración ambiental y empoderamiento social que busca recuperar nuestros bosques y ayudar a 
+          comunidades con rezago social.
 </h6>
             
             </div>
@@ -79,5 +80,7 @@
         </div>
     </div>
 </div>
+
+
  
 </footer>

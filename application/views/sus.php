@@ -14,6 +14,7 @@
 
 body{
   font-family: myFont;
+  font-size:40pt;
 }
 .price {
     list-style-type: none;
@@ -78,6 +79,11 @@ body{
       width:100%;
       height:400px;
     }
+
+}
+
+p{
+  font-size:13pt;
 }
 </style>
 
@@ -87,7 +93,7 @@ body{
 <img src="../img/d.jpg" width="1500" height="700" class="img-responsive">
 </div><br>
 <div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> <br> <br>
+  <br> <br> 
    <div class="row" >
     <div class="col-sm-4">
       <h2 style="color: black" align="center">Ambiental</h2>
@@ -96,7 +102,7 @@ body{
       <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350" class="video"> 
       </iframe>
       <br>
-       <div class="col-sm-8 texto ">
+       <div class="col-sm-8 texto text-justify ">
        <p>
           La reforestación de la zona ha significado una mejora inmediata en la calidad
           del suelo, el cual al ser poco profundo tiende a erosionarse y volcerse infértil
@@ -104,7 +110,7 @@ body{
           deslaves y desastres &nbsp;naturales. &nbsp;.
         </p>
 
-        <p>
+        <p class="text-justify">
           Mediante&nbsp; la restauración &nbsp;se mejora también la captación de lluvia y se&nbsp; encausan &nbsp;las aguas &nbsp;naturalmente, siendo&nbsp; más fácil aprovecharlas. Además
           de que los nuevos árboles capturan CO2 de la atmósfera, lo que mejora 
           automáticamente la calidad de vida de los habitantes de la zona.
@@ -120,7 +126,7 @@ body{
 <img src="../img/blooming-blossom-blurred-background.jpg" width="1500" height="700" class="img-responsive">
 </div>
 <div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> <br> <br>
+  <br> <br> 
    <div class="row" >
     <div class="col-sm-4">
       <h2 style="color: black" align="center">Social</h2>
@@ -129,12 +135,12 @@ body{
       <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350" class="video"> </iframe>
       <br>
         <div class="col-sm-8 texto">
-          <p align="justify">En las comunidades en&nbsp; las &nbsp;que &nbsp;trabajamos&nbsp; se&nbsp; imparten talleres y cursos en 
+          <p  class="text-justify">En las comunidades en&nbsp; las &nbsp;que &nbsp;trabajamos&nbsp; se&nbsp; imparten talleres y cursos en 
           diferentes áreas tales  como finanzas, básicas, cursos de educación ambiental
           asi como dinámicas de cohesión social. 
           </p>
 
-          <p>Este proyecto ha logrado un empoderamiento y mayor integración de los
+          <p class="text-justify">Este proyecto ha logrado un empoderamiento y mayor integración de los
           miembros de la comunidad,quienes ahora trabajan en conjunto para
           mejorar su situación tanto económica, social y ambiental. </p>
           <br>
@@ -150,7 +156,7 @@ body{
 <img src="../img/water.jpg" width="1500" height="700" class="img-responsive">
 </div>
 <div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> <br> <br>
+  <br> <br> 
    <div class="row" >
     <div class="col-sm-4">
       <h2 style="color: black" align="center">Económico</h2>
@@ -160,11 +166,11 @@ body{
       </iframe>
       <br> 
       <div class="col-sm-8 texto">
-          <p align="justify">
+          <p class="text-justify">
                 La comunidad recibe&nbsp; un apoyo económico por cada&nbsp; árbol plantado, 
                 es decir, restaurar &nbsp;la zona se convierte en su ingreso.
             </p>
-            <p>
+            <p class="text-justify">
             También se identifican especes de árboles que traen otros beneficios, un ejemplo es el pinus cembroide, 
             este arbol da un fruto que es altamente cotizado en el mercado, donde un Kg de piñon llega a alcanzar 
             hasta los $45 dólares;asegurando así que esa producción futura genere un ingreso económico para la comunidad.
@@ -181,7 +187,7 @@ body{
 <img src="../img/pexels-photo.jpeg" width="1500" height="700" class="img-responsive">
 </div>
 <div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> <br> <br>
+  <br> <br> 
    <div class="row" >
     <div class="col-sm-4">
       <h2 style="color: black" align="center">Legal</h2>
@@ -191,13 +197,13 @@ body{
       </iframe>
       <br>
        <div class="col-sm-8 texto">
-          <p align="justify">Existen múltiples tratados internacionales que buscan preservar la biodiversidad y
+          <p class="text-justify">Existen múltiples tratados internacionales que buscan preservar la biodiversidad y
               &nbsp;los espacios forestales en ell mundo, algunos de ellos son: Convención sobre el Cambio Climático, 
               Convenio sobre la diversidad biológica, Convención de lucha  contra  la &nbsp; desertificación, Instrumentos
                 &nbsp;que reflejan el interés  &nbsp;de &nbsp; la comunidad global por &nbsp;atender una &nbsp;problemática
             que&nbsp; pone en riesgo millones de vidas.
           </p>
-            <p>
+            <p class="text-justify">
             Es por ello que est&nbsp;a Campaña &nbsp;se &nbsp;une a los &nbsp;esfuerzos&nbsp; como sociedad civil organizada
             contribuyendo a los objetivos plantedos en todas estas convenciones así como a la 
               Agenda 2030 de las Naciones Unidas.
