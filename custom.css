@@ -3,6 +3,11 @@
     font-family: myFont;
     src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
 }
+@font-face {
+    font-family: fontFooter;
+    src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+}
+
 
 body{
     font-family: myFont !important;
@@ -12,8 +17,10 @@ body{
      
 }
 
-footer {
+footer a, h6 {
     font-size: 13px !important;
+    font-family: fontFooter !important;
+
    
 }
 

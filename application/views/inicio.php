@@ -133,6 +133,7 @@ include('menu.php');
 .dona{
   margin-top:10%;
   width:100%;
+ 
 }
 
 #topRank{
@@ -148,6 +149,25 @@ include('menu.php');
   background-color:#f4f4f4;
 }
 
+@font-face {
+    font-family: title;
+    src: url(img/fonts/GOTHAM-ULTRA.ttf);
+}
+@font-face {
+    font-family: dona;
+    src: url(img/fonts/HELVETICALTSTD-ROMAN.otf);
+}
+#participacion{
+  font-family:title;
+  font-size:33pt;
+}
+
+#dona{
+  font-family:dona;
+  font-size:20pt;
+}
+
+
 </style>
 
 
@@ -159,11 +179,11 @@ include('menu.php');
 <div class= "header">
     <div class="container ">
         <div class="row justify-content-start ">
-              <div class="col-md-8  arbol">
+              <div class="col-md-12  arbol">
 
                 <div class="row ">
                           <div class="col-md-12 align-items-center callToAction">
-                              <h1>¡Tu participación es importante!</h1>
+                              <h1 id="participacion">¡Tu participación es importante!</h1>
                           </div>
                 </div>
                 <br>
@@ -174,8 +194,8 @@ include('menu.php');
                 </div>
 
                 <div class="row">
-                        <div class="col-md-3  align-items-center ">
-                        <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" "><h4>DONA</h4></a>
+                        <div class="col-md-2  align-items-center ">
+                        <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" ><h4 id="dona">DONA</h4></a>
                         </div>
                 </div>
                 <br>
@@ -233,7 +253,7 @@ include('menu.php');
     <div class="container">
         <div class="row">
             
-          <div class="col-sm-4" style="color:black";>  <h2>Por eso queremos invitarte a Donar un Árbol al Mundo</h2>
+          <div class="col-sm-4" style="color:black";>  <h2 style="font-weight:bold">Por eso queremos invitarte a Donar un Árbol al Mundo</h2>
           <br>
  <h3 style="color:grey"> Así podrás recibir la foto de tu árbol por correo electrónico o descargarla en nuestra página</h3>
  <br>
