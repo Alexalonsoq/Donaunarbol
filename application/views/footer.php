@@ -1,4 +1,4 @@
-
+<div class="footer">
 
 <footer class="page-footer font-small " id="footer" >
 <div class="feature-wrapper p-3  bg-light text-dark">
@@ -15,6 +15,10 @@
    <h3></h3> </h6>
 <h6>contacto@portalsocial.mx</h6>
 <p>&nbsp;</p>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <p>Búscanos en nuestras redes sociales</p>
@@ -60,11 +64,11 @@
             <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
                
             </div>
-            <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
+            <div class="col-sm-12 col-md-4 text-center text-md-left  mb-3 mb-md-0">
                  <h4 class="text-uppercase">NOSOTROS</h4>
                  <br>
                  <br>
-          <div class=""> <h6>Dona un Árbol al Mundo es una campaña de restauración ambiental y empoderamiento social que busca recuperar nuestros bosques y ayudar a 
+          <div class="text-justify"> <h6>Dona un Árbol al Mundo es una campaña de restauración ambiental y empoderamiento social que busca recuperar nuestros bosques y ayudar a 
           comunidades con rezago social.
 </h6>
             
@@ -75,8 +79,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-5 text-center text-md-left  mb-3 mb-md-0">
-            <a> Dona un Árbol al Mundo ® Todos los derechos reservados</a>
+        <div class="col-sm-12 col-md-6 text-center text-md-left  mb-3 mb-md-0">
+            <a> Dona un Árbol al Mundo ® 2018 Todos los derechos reservados</a>
         </div>
     </div>
 </div>
@@ -84,3 +88,5 @@
 
  
 </footer>
+
+</div>

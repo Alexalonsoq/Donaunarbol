@@ -5,23 +5,20 @@
 }
 @font-face {
     font-family: fontFooter;
-    src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
+    src: url(img/fonts/HELVETICALTSTD-ROMAN.otf);
+   
 }
 
 
 body{
     font-family: myFont !important;
  }
- footer {
-     font-family: 'Monserrat', sans-serif !important;
-     
-}
+ 
 
-footer a, h6 {
-    font-size: 13px !important;
-    font-family: fontFooter !important;
-
-   
+.footer h4, p, a, h6{
+    font-family:fontFooter;
+    font-size: 12pt;
+ 
 }
 
 footer a{
