@@ -2,50 +2,6 @@
 ///Menu fin
 ?>
 <style>
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  transition: 0.3s;
-  margin-bottom:10px;
-}
-
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
-}
-
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-.contenedor{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.texto-encima{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.derecha{
-  position: absolute;
-  top: 20%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-}
-
-
 
 @media only screen and (max-width: 1100px) {
   .columns {
@@ -72,16 +28,6 @@
   min-height:500px;
 }
 
-
-
-
-@media only screen and (max-width:600px){
-  #myParallax{
-    background-image: url(../img/biology-blur-close-up.jpg);
-    
-  }
-}
-
 @media only screen and (max-device-width: 1024px) {
   #myParallax {
     background-attachment: scroll;
@@ -94,6 +40,14 @@
   border:1px solid #e3e3e3;
   padding:20px;
   margin-bottom:20px;
+  height:245px;
+}
+
+.gray-box{
+  background-color:#f4f4f4;
+  padding:20px;
+  margin-bottom:20px;
+  height:245px;
 }
 
 #myBorder{
@@ -103,12 +57,10 @@
     letter-spacing: 10px;
 }
 span{
-  color: #fff;
+    color: #fff;
     padding: 18px;
     font-size: 25pt;
 }
-
-
 
 .caption{
   position: absolute;
@@ -133,6 +85,10 @@ span{
 
   background-image: url(../img/earth-blue-planet-globe-planet.jpeg);
   min-height:500px;
+}
+
+.imageWorld .textWorld{
+  background-color:#80a8d9;
 }
 
 </style>
@@ -177,12 +133,99 @@ span{
 
 <div id="myParallax" class="imageWorld">
             <div class="caption">
-                <span id="myBorder ">ESTAMOS TODOS JUNTOS EN ESTO</span>
+                <span id="myBorder" class="textWorld">ESTAMOS TODOS JUNTOS EN ESTO</span>
                 <br>
                 <br>
                 <span >Un mundo interconectado que debe generar conciencia </span>
             </div>
  </div>
+
+ <div class="container text-center">    
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h2>¿Cómo funciona?</h2>
+    </div>
+    <div class="col-md-4">
+      <div class="white-box">
+       <p >01. CONCIENCIA</p>
+       <p align="justify">Es fundamental que todas las personas
+         conozcamos más de la situación ambiental de neustro planeta 
+         y seamos conscientes de la importancia que los árboles representan 
+         para nuestras vidas.
+      </p>
+      
+    </div>
+</div>
+  
+    <div class="col-md-4">
+      <div class="gray-box">
+        <p>0.2 ACCIÓN</p>
+        <p align="justify">Invitamos a hacer una donación
+          con la cual podremos plantar
+          muchos árboles y 
+          ayudar a comunidades con 
+           rezago social.
+        </p>
+      </div>
+    </div>
+</div>
+
+<div class="row justify-content-end">
+      <div class="col-md-4">
+          <div class="gray-box">
+            <p>03. CONEXIÓN</p>
+            <p align="justify">Una vez que se planta el árbol ponemos 
+              el distintivo con el nombre elegido por el
+              donador,luego se envía la fotografía, 
+              para crear un vínculo
+              muy especial.
+            </p>
+          </div>
+        </div> 
+
+        <div class="col-md-4">
+          <div class="white-box">
+          <p>0.4 DIFUSIÓN</p>
+          <p align="justify">
+            Invitamos a que las personas se asuman como parte de esta
+            campaña y nos ayuden a difundirla con sus amigos y familiares 
+            para que de este modo ellos también puedan unirse a la causa.
+          </p>
+        </div> 
+        </div>
+ </div>
+
+<!-- Fin div contenedor -->
+</div>
+
+
+ <div class="container-fluid" style="background-color: #f4f4f4;">
+  <br> <br> <br> <br>
+  <div class="row justify-content-end" >
+        <div class="col-md-3 align-items-center">
+        <h1 align="center">Vídeo</h1>
+        <br>
+        <div class="row justify-content-start">
+        <div class="col-md-12 d-flex align-items-md-center">
+          <h3>
+            Conoce cómo funciona la campaña y como puedes
+            ser parte de ella. Ayúdanos a compartir
+            este vídeo para causar un impacto muy grande. 
+          </h3> 
+          </div>
+        </div>
+        </div>
+    <div class="col-sm-7" style="background-color:#f4f4f4;"><br>
+      <iframe  class="video "src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
+      </iframe>
+      <br><br><br><br>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
 
 
 
