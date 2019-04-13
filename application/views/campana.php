@@ -3,18 +3,8 @@
 ?>
 <style>
 
-@media only screen and (max-width: 1100px) {
-  .columns {
-    width: 100%;
-  }
 
-  .video{
-    width:100%;
-    height:400px;
-  }
 
- 
-}
 #myParallax{
   position:relative;
   background-attachment: fixed;
@@ -50,11 +40,14 @@
   height:245px;
 }
 
+
+
 #myBorder{
     color: #fff;
     padding: 18px;
     font-size: 25pt;
     letter-spacing: 10px;
+    background-color:#80a8d9;
 }
 span{
     color: #fff;
@@ -69,12 +62,12 @@ span{
   width: 100%;
   text-align: center;
   color: #000;
+  
 }
 
 .text{
   height:auto;
   background-color:white;
-  /* margin-top:50%; */
 }
 
 #mainText{
@@ -91,12 +84,40 @@ span{
   background-color:#80a8d9;
 }
 
+.actions{
+  margin:10% 0;
+  /* background-color:pink; */
+}
+@media only screen and (max-width: 1100px) {
+  .columns {
+    width: 100%;
+  }
+
+  .video{
+    width:100%;
+    height:400px;
+  }
+  
+}
+
+@media only screen and (min-width:768px) and (max-width:1100px){
+  .white-box, .gray-box{
+    height:350px;
+  }
+}
+
+.white-box p{
+  /* background-color:blue; */
+  /* margin-left:0; */
+}
+
+
 </style>
 
 
  <div id="myParallax" class="mainImage">
             <div class="caption">
-                <span id="myBorder ">NUESTRA CAMPAÑA</span>
+                <span id="myBorder" class="textWorld">NUESTRA CAMPAÑA</span>
                 <br>
                 <br>
                 <span >Restauración ambiental y empoderamiento social</span>
@@ -140,27 +161,27 @@ span{
             </div>
  </div>
 
- <div class="container text-center">    
-  <br>
-  <div class="row">
-    <div class="col-md-4">
-      <h2>¿Cómo funciona?</h2>
+ <div class="container actions">    
+        <br>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h2>¿Cómo funciona?</h2>
+          </div>
+          <div class="col-md-4 col-sm-12">
+              <div class="white-box">
+                    <p >01. CONCIENCIA</p>
+                    <p align="justify">Es fundamental que todas las personas
+                      conozcamos más de la situación ambiental de neustro planeta 
+                      y seamos conscientes de la importancia que los árboles representan 
+                      para nuestras vidas.
+                    </p>
+                </div>
     </div>
-    <div class="col-md-4">
-      <div class="white-box">
-       <p >01. CONCIENCIA</p>
-       <p align="justify">Es fundamental que todas las personas
-         conozcamos más de la situación ambiental de neustro planeta 
-         y seamos conscientes de la importancia que los árboles representan 
-         para nuestras vidas.
-      </p>
-      
-    </div>
-</div>
+
   
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12">
       <div class="gray-box">
-        <p>0.2 ACCIÓN</p>
+        <p font-weight="bold">02. ACCIÓN</p>
         <p align="justify">Invitamos a hacer una donación
           con la cual podremos plantar
           muchos árboles y 
@@ -172,7 +193,7 @@ span{
 </div>
 
 <div class="row justify-content-end">
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
           <div class="gray-box">
             <p>03. CONEXIÓN</p>
             <p align="justify">Una vez que se planta el árbol ponemos 
@@ -184,9 +205,9 @@ span{
           </div>
         </div> 
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="white-box">
-          <p>0.4 DIFUSIÓN</p>
+          <p>04. DIFUSIÓN</p>
           <p align="justify">
             Invitamos a que las personas se asuman como parte de esta
             campaña y nos ayuden a difundirla con sus amigos y familiares 
