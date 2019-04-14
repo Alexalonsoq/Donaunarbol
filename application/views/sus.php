@@ -16,58 +16,7 @@ body{
   font-family: myFont;
   font-size:40pt;
 }
-.price {
-    list-style-type: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    transition: 0.3s;
-    margin-bottom:10px;
-}
 
-.price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-.price .header {
-    background-color: #111;
-    color: white;
-    font-size: 25px;
-}
-
-.price li {
-    border-bottom: 1px solid #eee;
-    padding: 20px;
-    text-align: center;
-}
-
-
-
-
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
- 
-.texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.derecha{
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-}
-
-
-.graph .bar span { position: absolute; left: 1em; }
-
-.texto{
-  padding-left:0;
-}
 
 
 @media only screen and (max-width: 768px) {
@@ -85,44 +34,48 @@ body{
 p{
   font-size:13pt;
 }
+
+#ambiental{
+  margin:10% 0;
+}
 </style>
 
 
 
 <div class="content clearfix">
 <img src="../img/d.jpg" width="1500" height="700" class="img-responsive">
-</div><br>
-<div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> 
-   <div class="row" >
-    <div class="col-sm-4">
-      <h2 style="color: black" align="center">Ambiental</h2>
-    </div>
-    <div class="col-sm-8" style="background-color:#f4f4f4;"><br>
-      <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350" class="video"> 
-      </iframe>
-      <br>
-       <div class="col-sm-8 texto text-justify ">
-       <p>
-          La reforestación de la zona ha significado una mejora inmediata en la calidad
-          del suelo, el cual al ser poco profundo tiende a erosionarse y volcerse infértil
-          con facilidad, lo que se traducía en una alta probabilidad en &nbsp;cuestión de&nbsp;
-          deslaves y desastres &nbsp;naturales. &nbsp;.
-        </p>
+</div>
 
-        <p class="text-justify">
-          Mediante&nbsp; la restauración &nbsp;se mejora también la captación de lluvia y se&nbsp; encausan &nbsp;las aguas &nbsp;naturalmente, siendo&nbsp; más fácil aprovecharlas. Además
-          de que los nuevos árboles capturan CO2 de la atmósfera, lo que mejora 
-          automáticamente la calidad de vida de los habitantes de la zona.
-        </p>
-        <br>
-        <br>
-       </div>
-      <br><br>
+<div class="container-fluid"  style="background-color: #f4f4f4;">
+   <div class="row" id="ambiental" >
+    <div class="col-md-4 no-gutters text-center ">
+      <h2 style="color: black" >Ambiental</h2>
     </div>
-  </div>
-  </div>
-  <div class="content clearfix">
+    <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
+          <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
+
+          <div class="col-md-12 texto text-justify no-gutters" padding="0" >
+              <p  padding="0">
+                  La reforestación de la zona ha significado una mejora inmediata en la calidad
+                  del suelo, el cual al ser poco profundo tiende a erosionarse y volcerse infértil
+                  con facilidad, lo que se traducía en una alta probabilidad en cuestión de
+                  deslaves y desastres naturales.
+              </p>
+
+              <p class="text-justify">
+                  Mediante la restauración se mejora también la captación de lluvia y se encausanlas aguas naturalmente, siendomás fácil aprovecharlas. Además
+                  de que los nuevos árboles capturan CO2 de la atmósfera, lo que mejora 
+                  automáticamente la calidad de vida de los habitantes de la zona.
+                </p>
+          </div>
+    </div>
+</div>
+ 
+  
+
+
+
+
 <img src="../img/blooming-blossom-blurred-background.jpg" width="1500" height="700" class="img-responsive">
 </div>
 <div class="container-fluid" style="background-color: #f4f4f4;">
@@ -135,7 +88,7 @@ p{
       <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350" class="video"> </iframe>
       <br>
         <div class="col-sm-8 texto">
-          <p  class="text-justify">En las comunidades en&nbsp; las &nbsp;que &nbsp;trabajamos&nbsp; se&nbsp; imparten talleres y cursos en 
+          <p  class="text-justify">En las comunidades en las que trabajamos se imparten talleres y cursos en 
           diferentes áreas tales  como finanzas, básicas, cursos de educación ambiental
           asi como dinámicas de cohesión social. 
           </p>
@@ -198,13 +151,13 @@ p{
       <br>
        <div class="col-sm-8 texto">
           <p class="text-justify">Existen múltiples tratados internacionales que buscan preservar la biodiversidad y
-              &nbsp;los espacios forestales en ell mundo, algunos de ellos son: Convención sobre el Cambio Climático, 
-              Convenio sobre la diversidad biológica, Convención de lucha  contra  la &nbsp; desertificación, Instrumentos
-                &nbsp;que reflejan el interés  &nbsp;de &nbsp; la comunidad global por &nbsp;atender una &nbsp;problemática
-            que&nbsp; pone en riesgo millones de vidas.
+              los espacios forestales en ell mundo, algunos de ellos son: Convención sobre el Cambio Climático, 
+              Convenio sobre la diversidad biológica, Convención de lucha  contra  la desertificación, Instrumentos
+               que reflejan el interés de  la comunidad global por atender una problemática
+            que pone en riesgo millones de vidas.
           </p>
             <p class="text-justify">
-            Es por ello que est&nbsp;a Campaña &nbsp;se &nbsp;une a los &nbsp;esfuerzos&nbsp; como sociedad civil organizada
+            Es por ello que esta Campaña se une a los esfuerzos como sociedad civil organizada
             contribuyendo a los objetivos plantedos en todas estas convenciones así como a la 
               Agenda 2030 de las Naciones Unidas.
             </p>
