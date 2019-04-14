@@ -46,7 +46,7 @@ p{
     letter-spacing: 10px;
     background-color:#80a8d9;
 }
-h3{
+.caption h3{
     color: #fff;
     padding: 18px;
     font-size: 25pt;
@@ -74,6 +74,10 @@ h3{
     background-attachment: scroll;
     width: 100%;
     height:auto;
+  }
+
+  #myBorder{
+    font-size: 15pt;
   }
 
   .caption{
