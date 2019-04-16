@@ -12,12 +12,6 @@
     src: url(../img/fonts/HelveticaLTStd-Cond.otf);
 }
 
-body{
-  font-family: myFont;
-  font-size:40pt;
-}
-
-
 p{
   font-size:13pt;
 }
@@ -91,10 +85,6 @@ p{
   background-image: url(../img/desk-writing-work-hand-man-table.jpg);
   min-height:500px;
 }
-
-
-
-
 
 </style>
 
@@ -251,7 +241,6 @@ p{
 
 <?php 
 include('footer.php');
-
 ?>
 
 
