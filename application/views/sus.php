@@ -18,19 +18,6 @@ body{
 }
 
 
-
-@media only screen and (max-width: 768px) {
-    .columns {
-        width: 100%;
-    }
-
-    .video{
-      width:100%;
-      height:400px;
-    }
-
-}
-
 p{
   font-size:13pt;
 }
@@ -262,7 +249,7 @@ p{
 
 
 
-  <?php 
+<?php 
 include('footer.php');
 
 ?>

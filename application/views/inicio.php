@@ -291,7 +291,7 @@ include('menu.php');
 <div class="container-fluid" id="topRank">
   <div class="row justify-content-center">
     <div class="col-md-12 align-items-center">
-        <h1 align="center " class="topRank">Top rank donadores</h1>
+        <h1 align="center " class="topRank">Top Rank Donadores</h1>
     </div>
   </div>
 </div>

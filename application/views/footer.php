@@ -1,90 +1,81 @@
-<div class="footer">
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 footer pb-4">
 
-<footer class="page-footer font-small " id="footer" >
-<div class="feature-wrapper p-3  bg-light text-dark">
-    <div style="clear:both; margin:100px" > </div>
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
-                <h4 class="text-uppercase" >CONTACTO</h4>
-                <br>
-                <br>
+      <!-- Grid row -->
+      <div class="row">
 
- <h6>+222 838 36 91 
-   <h3></h3> </h6>
-<h6>contacto@portalsocial.mx</h6>
-<p>&nbsp;</p>
-<br>
-<br>
-<br>
+        <!-- Grid column -->
+        <div class="col-md-4 mt-5 ml-5 mr-5 pl-5" id="contacto">
+          <!-- Content -->
+          <h4 class="text-uppercase">Contacto</h4>
+           <div class="contenido mt-5">
+              <h6>+222 838 36 91</h6>
+              <h6>contacto@portalsocial.mx</h6>
+           </div>
+        </div>
+        <!-- Grid column -->
 
-<p>Búscanos en nuestras redes sociales</p>
-<!-- <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> -->
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-5 mb-3 mt-5"  id="enlaces">
 
+            <!-- Links -->
+            <h4 class="text-uppercase">Enlaces relacionados</h4>
 
-
-
-<p><a href="https://www.facebook.com/TheTreeSchool/" target="_blank">
-  <img class="alignleft wp-image-311" src="<?php echo base_url();?>/img/fb.png" alt="" width="60" height="60" /></a> 
-   &nbsp;
-  <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">
-    <img class="alignleft wp-image-313" src="<?php echo base_url();?>/img/yout.png" alt="" width="85" height="83" /></a>
-</p>
-            </div>
-           <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
-                
-            </div>
-            <div class="col-sm-12 col-md-3 text-center text-md-left  mb-3 mb-md-0">
-                <h4 class="text-uppercase">ENLACES RELACIONADOS</h4>
-                <br>
-                <br>
-
-            <ul class="list-unstyled">
-            <li><h6>
-                <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">•  Nuestro canal <p>&nbsp;</p></a></h6>
+            <ul class="list-unstyled mt-5">
+              <li >
+                <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank" >•  Nuestro Canal </a>
               </li>
-              <li><h6>
-  
-                <a href="http://portalsocial.mx/" target="_blank"> •  www.portalsocial.mx <p>&nbsp;</p></a></h6>
-
+              <li class="mt-3">
+                <a href="http://portalsocial.mx/" target="_blank" > •  www.portalsocial.mx </a>
               </li>
-              <li><h6>
-                <a href="http://www.thetreeschool.org/" target="_blank">•  www.thetreeschool.org <p>&nbsp;</p></a></h6>
+              <li class="mt-3">
+                <a href="http://www.thetreeschool.org/" target="_blank">•  www.thetreeschool.org</a>
               </li>
-              <li>
-               <h6><a href="http://portalsocial.mx/beneficios/" target="_blank">•   Beneficios de los árboles</a></h6>
+              <li class="mt-3">
+                <a href="http://portalsocial.mx/beneficios/" target="_blank">•   Beneficios de los árboles</a>
               </li>
-              
             </ul>
 
-            </div>
-            <div class="col-sm-12 col-md-1 text-center mb-3 mb-md-0">
-               
-            </div>
-            <div class="col-sm-12 col-md-4 text-center text-md-left  mb-3 mb-md-0">
-                 <h4 class="text-uppercase">NOSOTROS</h4>
-                 <br>
-                 <br>
-          <div class="text-justify"> <h6>Dona un Árbol al Mundo es una campaña de restauración ambiental y empoderamiento social que busca recuperar nuestros bosques y ayudar a 
-          comunidades con rezago social.
-</h6>
-            
-            </div>
-        </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 mb-md-5 mb-3 mt-5">
+
+            <!-- Links -->
+            <h4 class="text-uppercase">Nosotros</h4>
+
+           <p class="mt-5 text-justify">
+              Dona un Árbol al Mundo es una campaña de restauración ambiental y empoderamiento social que 
+              busca recuperar nuestros bosques y ayudar a 
+              comunidades con rezago social.
+           </p>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
     </div>
-</div>
+    <!-- Footer Links -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 text-center text-md-left  mb-3 mb-md-0">
-            <a> Dona un Árbol al Mundo ® 2018 Todos los derechos reservados</a>
-        </div>
+    <div class="footer-copyright ml-5 py-3  pl-5">
+      <h4>Búscanos en nuestras redes sociales</h4>
+      <a href="https://www.facebook.com/TheTreeSchool/" target="_blank">
+      <img class="alignleft wp-image-311" src="<?php echo base_url();?>/img/fb.png" alt="" width="60" height="60" /></a> 
+      <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">
+      <img class="alignleft wp-image-313 ml-5 " src="<?php echo base_url();?>/img/yout.png" alt="" width="85" height="83" /></a>
     </div>
-</div>
 
+    <!-- Copyright -->
+    <div class="footer-copyright ml-5 py-3 mt-5 pl-5 mr-5">
+      <a  class=" mb-5"> Dona un Árbol al Mundo ® 2018. Todos los derechos reservados</a>
+    </div>
+    <!-- Copyright -->
 
- 
-</footer>
-
-</div>
+  </footer>
+  <!-- Footer -->
