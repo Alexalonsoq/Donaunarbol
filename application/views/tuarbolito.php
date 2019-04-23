@@ -13,9 +13,7 @@
 
 .header{
   max-width:100%;
-  /* max-height:auto; */
   heigh:auto;
-  /* display:block; */
   background: url('../img/patri.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -125,13 +123,21 @@ input{
   padding:5% 0;
 }
 
+.tuArbolito p{
+  font-size:13px;
+}
+
+.tuArbolitoText p{
+  margin:30% 0;
+}
+
 
 </style>
 
 
 
 <div class= "header">
-    <div class="container ">
+    <div class="container tuArbolito">
         <div class="row justify-content-md-center ">
               <div class="col-md-5  arbol">
 
@@ -175,22 +181,18 @@ input{
 
 <!-- <img src="../img/patri.jpg" width="100%" height="800" class="img-responsive"> -->
 
-<div class="container-fluid">
-<div class="row justify-content-md-center"> 
-<div class="col-sm-6 align-items-start bigPadding"  >
- <p>
-  
-  <br><br>
-  <h3 class="text-justify">Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándole su árbol
-  por  medio de una  fotografia. Cuando  una persona  dona un  árbol al
-  mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
-  para ser parte del cambio en este planeta y esa voluntad la puede ver
-  cristalizada en el nuevo árbol que dio al mundo.</h3> <br><br>
-  <br>
-  <br><br><br>
-</p>
-</div>
-</div>
+<div class="container-fluid tuArbolitoText">
+    <div class="row justify-content-md-center"> 
+        <div class="col-sm-6 align-items-start"  >
+              
+              <p class="text-justify">Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándoles su árbol
+              por  medio de una  fotografia. Cuando  una persona  Dona un  Árbol al
+              Mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
+              para ser parte del cambio en este planeta y esa voluntad la puede ver
+              reflejada en el nuevo árbol que dio al mundo.</p> 
+        
+        </div>
+    </div>
 </div>
 
 <div class="row  no-gutters"  >
@@ -269,21 +271,6 @@ input{
 
 </div>
 
- 
-
-  
-
-
-
-
-    
-
-
-
-
-
-
-
 <div class="container">
 
 
@@ -296,40 +283,8 @@ input{
 
 
 <div class="content clearfix">
-
-
-
   <img src="../img/brigada.jpg"  height="800" class="img-responsive">
-
-
 </div>
-
-
-
-
-
-
-  <!-- <div class="col-sm-6">
- <img src="../img/grafica.png" class="img-responsive">
-  </div>
- 
-
- <div class="col-sm-6"> 
-  <br><br><br>
-  <h3>
-  SI AÚN NO HAS RECIBIDO TU ARBOLITO ESCRIBENOS A
-  contacto@portalsocial.mx Ó LLAMANOS AL 2228383691.</h3>
-  <br>
-
-  <h4>Por diversas razones puede que no te haya llegado; quizá aún  </h4>
-  <h4>no es plantado, o nuestro equipo no ha tomado la fotografia, o</h4>
-  <h4>quizá llegó a tu correo a la bandeja de no deseados y por ello</h4>
-  <h4>ello no lo has podido ver. Algunas de estas pueden ser las ra-</h4>
-  <h4>zones por eso te pedimos que nos contactes y nos envíes el</h4>
-  <h4>número de folio de tu arbolito.</h4>
-</div> -->
-
-
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
