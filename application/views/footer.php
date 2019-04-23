@@ -7,7 +7,7 @@
       <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-4 mt-5 ml-5 mr-5 pl-5" id="contacto">
+        <div class="col-md-4 mt-5 ml-5 mr-5 pl-5 pr-5" id="contacto">
           <!-- Content -->
           <h4 class="text-uppercase">Contacto</h4>
            <div class="contenido mt-5">
@@ -63,7 +63,7 @@
     <!-- Footer Links -->
 
     <div class="footer-copyright ml-5 py-3  pl-5">
-      <h4>Búscanos en nuestras redes sociales</h4>
+      <h6>Búscanos en nuestras redes sociales</h6>
       <a href="https://www.facebook.com/TheTreeSchool/" target="_blank">
       <img class="alignleft wp-image-311" src="<?php echo base_url();?>/img/fb.png" alt="" width="60" height="60" /></a> 
       <a href="https://www.youtube.com/channel/UC4XjsjerjcQg2vIH-4POyYA" target="_blank">

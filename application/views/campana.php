@@ -47,7 +47,7 @@
     padding: 18px;
     font-size: 25pt;
     letter-spacing: 10px;
-    background-color:#80a8d9;
+    background-color:rgba(122,122,122,.5);
 }
 span{
     color: #fff;

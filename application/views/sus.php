@@ -25,7 +25,7 @@ p{
     padding: 18px;
     font-size: 25pt;
     letter-spacing: 10px;
-    background-color:#80a8d9;
+    background-color:rgba(122,122,122,.5);;
 }
 .caption h3{
     color: #fff;
@@ -58,12 +58,15 @@ p{
   }
 
   #myBorder{
-    font-size: 15pt;
+    font-size: 25pt;
+    letter-spacing: 4px;
+    padding:0;
   }
 
   .caption{
     top:20%;
   }
+  
 }
 
 .ambientalImage{
@@ -85,6 +88,9 @@ p{
   background-image: url(../img/desk-writing-work-hand-man-table.jpg);
   min-height:500px;
 }
+h2{
+  font-family:fontFooter;
+}
 
 </style>
 
@@ -104,7 +110,7 @@ p{
       <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
             <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
 
-            <div class="col-md-12 texto text-justify no-gutters" padding="0" >
+            <div class="col-md-12 texto text-justify no-gutters mt-5" padding="0" >
                 <p  padding="0">
                     La reforestación de la zona ha significado una mejora inmediata en la calidad
                     del suelo, el cual al ser poco profundo tiende a erosionarse y volverse infértil
@@ -143,7 +149,7 @@ p{
       <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
             <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
 
-            <div class="col-md-12 texto text-justify no-gutters" padding="0" >
+            <div class="col-md-12 texto text-justify no-gutters mt-5">
                     <p  class="text-justify">En las comunidades que trabajamos se imparten talleres y cursos en 
                   diferentes áreas tales  como finanzas básicas, cursos de educación ambiental,
                   asi como dinámicas de cohesión social. 
@@ -177,7 +183,7 @@ p{
       <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
             <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
 
-            <div class="col-md-12 texto text-justify no-gutters" padding="0" >
+            <div class="col-md-12 texto text-justify no-gutters mt-5" padding="0" >
                   <p class="text-justify">
                       La comunidad recibe un apoyo económico por cada árbol plantado, 
                       es decir, restaurar la zona se convierte en su ingreso.
@@ -212,7 +218,7 @@ p{
       <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
             <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
 
-            <div class="col-md-12 texto text-justify no-gutters" padding="0" >
+            <div class="col-md-12 texto text-justify no-gutters mt-5" padding="0" >
                   <p class="text-justify">Existen múltiples tratados internacionales que buscan preservar la biodiversidad y
                     los espacios forestales en el mundo, algunos de ellos son: Convención sobre el Cambio Climático, 
                     Convenio sobre la diversidad biológica, Convención de lucha  contra  la desertificación. Instrumentos

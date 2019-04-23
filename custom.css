@@ -9,6 +9,15 @@
    
 }
 
+@font-face {
+    font-family: gothamMedium;
+    src: url(img/fonts/GOTHAM-MEDIUM.otf);
+   
+}
+
+
+
+
 
 body{
     font-family: myFont !important;
