@@ -62,8 +62,9 @@ span{
   width: 100%;
   text-align: center;
   color: #000;
-  
 }
+
+
 
 .text{
   height:auto;
@@ -86,8 +87,12 @@ span{
 
 .actions{
   margin:10% 0;
-  /* background-color:pink; */
 }
+
+.videoTitle{
+  margin-bottom:30px;
+}
+
 @media only screen and (max-width: 1100px) {
   .columns {
     width: 100%;
@@ -116,11 +121,16 @@ span{
   }
 }
 
-.white-box p{
-  /* background-color:blue; */
-  /* margin-left:0; */
+.campanaText p{
+  font-family:myFont;
+  margin-top:20px;
+  
 }
 
+.footerFont {
+  font-family:fontFooter;
+ 
+}
 
 </style>
 
@@ -137,8 +147,7 @@ span{
 
  <div class="container-fluid text" id="mainText">
         <div class="row justify-content-md-center">
-            <div class="col-md-8 ">
-              <h3 style="color:black"> 
+            <div class="col-md-8 campanaText" >
                 <p align="justify"> 
                   Dona un Árbol al mundo es una campaña de restauración ambiental y empoderamiento social que se
                   suma a esfuerzos internacionales por frenar el cambio climático. Surgió en Julio de 2017
@@ -156,7 +165,6 @@ span{
                   Puebla y Veracruz. Nuestro objetivo final es el extender la campaña no solo a estos estados,
                   queremos replicarla internacionalmente.
                 </p>
-              </h3>
             </div>
           </div>
   </div>
@@ -174,7 +182,7 @@ span{
  <div class="container actions">    
         <br>
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 text-center footerFont">
             <h2>¿Cómo funciona?</h2>
           </div>
           <div class="col-md-4 col-sm-12">
@@ -232,30 +240,31 @@ span{
 
 
  <div class="container-fluid" style="background-color: #f4f4f4;">
-  <br> <br> <br> <br>
-  <div class="row justify-content-end" >
-        <div class="col-md-3 align-items-center">
-        <h1 align="center">Vídeo</h1>
-        <br>
-        <div class="row justify-content-start">
-        <div class="col-md-12 d-flex align-items-md-center">
-          <h3>
-            Conoce cómo funciona la campaña y como puedes
-            ser parte de ella. Ayúdanos a compartir
-            este vídeo para causar un impacto muy grande. 
-          </h3> 
-          </div>
-        </div>
-        </div>
-    <div class="col-sm-7" style="background-color:#f4f4f4;"><br>
-      <iframe  class="video "src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
-      </iframe>
-      <br><br><br><br>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
+      <br> <br> <br> <br>
+      <div class="row justify-content-end footerFont" >
+                <div class="col-md-3 align-items-center">
+                      <div class="text-center">
+                          <h1 class="videoTitle">Vídeo</h1>
+                      </div>
+                      <div class="row justify-content-start">
+                          <div class="col-md-12 d-flex align-items-md-center">
+                            <p>
+                              Conoce cómo funciona la campaña y como puedes
+                              ser parte de ella. Ayúdanos a compartir
+                              este vídeo para causar un impacto muy grande. 
+                            </p> 
+                          </div>
+                      </div>
+                </div>
+            <div class="col-sm-7" style="background-color:#f4f4f4;"><br>
+              <iframe  class="video "src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="600" height="350"> 
+              </iframe>
+              <br><br><br><br>
+            </div>
+      </div>
+            <br>
+            <br>
+            <br>
 </div>
 
 

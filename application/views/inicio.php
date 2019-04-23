@@ -16,9 +16,7 @@ include('menu.php');
 
 .header{
   max-width:100%;
-  /* max-height:auto; */
   heigh:auto;
-  /* display:block; */
   background: url('img/fondo.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +92,7 @@ include('menu.php');
 .fondodiv {
       padding: 14px;
       background-color: #2ECCFA;
-    }
+}
 .conoceMas{
   background-color:#80a8d9;
   border-color:#80a8d9;
