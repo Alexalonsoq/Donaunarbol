@@ -97,6 +97,16 @@ span{
     width:100%;
     height:400px;
   }
+
+  #myBorder{
+    font-size: 25pt;
+    letter-spacing: 4px;
+    padding:0;
+  }
+
+  .caption{
+    top:20%;
+  }
   
 }
 
