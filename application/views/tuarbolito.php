@@ -73,15 +73,12 @@
   }
 }
 
-
-
-
-
 .arbol{
   background-color:rgba(0,0,0,.4);
   padding:2%;
+  padding-top:3%;
   margin:10% 0%;
-  padding-bottom:4%;
+  padding-bottom:7%;
   color:white;
 }
 
@@ -109,6 +106,8 @@
   height:34px;
   background-color:yellow;
   padding:0;
+  font-family: fontFooter;
+  font-size:20px;
 }
 
 input{
@@ -119,9 +118,7 @@ input{
   border:none;
 }
 
-.bigPadding{
-  padding:5% 0;
-}
+
 
 .tuArbolito p{
   font-size:13px;
@@ -130,6 +127,11 @@ input{
 .tuArbolitoText p{
   margin:30% 0;
 }
+.busca{
+  font-family: fontFooter;
+  font-size:20px;
+}
+
 
 
 </style>
@@ -139,11 +141,11 @@ input{
 <div class= "header">
     <div class="container tuArbolito">
         <div class="row justify-content-md-center ">
-              <div class="col-md-5  arbol">
+              <div class="col-md-6  arbol">
 
                 <div class="row ">
                           <div class="col-md-12 align-items-start">
-                              <h3>Busca la foto de tu Árbol</h3>
+                              <h3 class="busca">Busca la foto de tu Árbol</h3>
                           </div>
                 </div>
                 <br>
