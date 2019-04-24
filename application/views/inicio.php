@@ -142,6 +142,7 @@ include('menu.php');
 
 .topRank{
   margin-top:2%;
+  font-family:fontFooter;
 }
 .logos{
   background-color:#f4f4f4;
@@ -167,12 +168,39 @@ include('menu.php');
 
 .arbol h3{
   font-family:gothamMedium;
+  font-size:32px;
 }
 
 .invitacion h2{
   font-family: boldHelvetica;
 }
 
+.gracias h1{
+  font-family:fontFooter;
+}
+
+.necesitamos h1{
+  font-family:fontFooter;
+}
+
+.boton a{
+  font-family:myFont;
+}
+
+.grey h3{
+  font-family:fontFooter;
+  font-size:20px;
+}
+
+.green h3{
+  font-family:fontFooter;
+  font-size:20px;
+}
+
+.dark-grey h3 {
+  font-family:fontFooter;
+  font-size:20px;
+}
 
 </style>
 
@@ -219,8 +247,8 @@ include('menu.php');
 
 <div class="container" align="center">
     <div class="row justify-content-md-center">
-        <div class="col-md-8">
-            <h1 color="blue">Necesitamos tu ayuda</h1>
+        <div class="col-md-8 necesitamos">
+            <h1 color="blue " >Necesitamos tu ayuda</h1>
         </div>
     </div>
     <br>
@@ -233,7 +261,7 @@ include('menu.php');
          </div>
     </div>
 <br>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-md-center boton">
       <div class="col-md-8">
            <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
       </div>
@@ -334,7 +362,7 @@ include('menu.php');
 <br>
 <br>
 <div class="container">
-  <div class="row  justify-content-center">
+  <div class="row  justify-content-center gracias">
     <div class="col-md-12">
       <h1 align="center "  style=" color:grey" >
         Gracias a miles de donadores este proyecto es posible, entre ellos, valiosas empresas e instituciones que han ayudado a nuestra casusa de manera muy especial
