@@ -15,6 +15,18 @@
    
 }
 
+@font-face {
+    font-family: lightHelvetica;
+    src: url(img/fonts/HelveticaLTStd-Light.OTF);
+   
+}
+
+@font-face {
+    font-family: boldHelvetica;
+    src: url(img/fonts/HelveticaLTStd-Bold.OTF);
+   
+}
+
 
 
 
