@@ -201,7 +201,9 @@ include('menu.php');
   font-family:fontFooter;
   font-size:20px;
 }
-
+.ayuda{
+  padding:4% 0;
+}
 </style>
 
 
@@ -245,27 +247,29 @@ include('menu.php');
 
 
 
-<div class="container" align="center">
-    <div class="row justify-content-md-center">
-        <div class="col-md-8 necesitamos">
-            <h1 color="blue " >Necesitamos tu ayuda</h1>
+<div class="ayuda">
+      <div class="container" align="center">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8 necesitamos">
+                  <h1 color="blue " >Necesitamos tu ayuda</h1>
+              </div>
+          </div>
+          <br>
+          <div class="row justify-content-md-center">
+              <div class="col-md-8" align="center"> 
+                  <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el cambio
+              climático y nuestra forma de hacerlo es plantando árboles, ya que cada
+              año se pierden más de 15 mil millones.</h3>
+              <h2>¡Vamos a recuperarlos!</h2>
+              </div>
+          </div>
+      <br>
+        <div class="row justify-content-md-center boton">
+            <div class="col-md-8">
+                <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row justify-content-md-center">
-        <div class="col-md-8" align="center"> 
-            <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
-        Climático y nuestra forma de hacerlo es plantando árboles, ya que cada
-        año se pierden mas de 15 mil millones.</h3>
-         <h2>¡Vamos a recuperarlos!</h2>
-         </div>
-    </div>
-<br>
-  <div class="row justify-content-md-center boton">
-      <div class="col-md-8">
-           <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
       </div>
-  </div>
 </div>
 <br>
 <br>

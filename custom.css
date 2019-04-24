@@ -48,7 +48,6 @@ footer a{
     background-color:#ffffff;
 }
 
-
-/* footer h3 h6{
-    margin-top:2% !important;
-} */
+.footer{
+    height: 90vh;
+}
