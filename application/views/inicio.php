@@ -165,6 +165,14 @@ include('menu.php');
   font-size:20pt;
 }
 
+.arbol h3{
+  font-family:gothamMedium;
+}
+
+.invitacion h2{
+  font-family: boldHelvetica;
+}
+
 
 </style>
 
@@ -186,14 +194,14 @@ include('menu.php');
                 </div>
                 <br>
                 <div class="row">
-                        <div class="col-md-5  align-items-center regala">
+                        <div class="col-md-5  align-items-center regala ">
                             <h3>Regala un árbol al mundo</h3>
                         </div>
                 </div>
 
                 <div class="row">
                         <div class="col-md-2  align-items-center ">
-                        <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" ><h4 id="dona">DONA</h4></a>
+                          <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" ><h4 id="dona">DONA</h4></a>
                         </div>
                 </div>
                 <br>
@@ -247,7 +255,7 @@ include('menu.php');
                 
             </div>
 
-<div class="container">
+<div class="container invitacion">
     <div class="container">
         <div class="row">
             

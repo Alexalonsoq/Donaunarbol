@@ -21,7 +21,7 @@
 
    
   <title>
-    TreeSchool
+    Dona un árbol al mundo
   </title>
   <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
 
