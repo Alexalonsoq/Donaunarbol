@@ -164,6 +164,12 @@ include('menu.php');
 #dona{
   font-family:dona;
   font-size:20pt;
+  background-color:#80a8d9;
+}
+
+.dona{
+  background-color:#80a8d9;
+  border-color:#80a8d9;
 }
 
 .arbol h3{
