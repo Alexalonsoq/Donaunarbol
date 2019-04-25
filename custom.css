@@ -11,19 +11,19 @@
 
 @font-face {
     font-family: gothamMedium;
-    src: url(img/fonts/GOTHAM-MEDIUM.TTF);
+    src: url(img/fonts/GOTHAM-MEDIUM.ttf);
    
 }
 
 @font-face {
     font-family: lightHelvetica;
-    src: url(img/fonts/HelveticaLTStd-Light.OTF);
+    src: url(img/fonts/HELVETICALTStd-Light.otf);
    
 }
 
 @font-face {
     font-family: boldHelvetica;
-    src: url(img/fonts/HelveticaLTStd-Bold.OTF);
+    src: url(img/fonts/HelveticaLTStd-Bold.otf);
    
 }
 
