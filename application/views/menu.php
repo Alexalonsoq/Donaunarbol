@@ -58,6 +58,12 @@
               .logo{
                 margin-left:10%;
                 list-style:none;
+                transition:transform .2s ease;
+              }
+
+              .logo:hover{
+                
+                transform: scale(1.2);
               }
 
               .nav-links{
@@ -197,7 +203,7 @@
                 margin-top:auto;
                 width:100%;
                 
-                padding:13% 30%;
+                padding:13% 25%;
                 background-color:#80a8db;
                 border-color:#80a8d9;
                 font-family:fontFooter;
@@ -212,13 +218,11 @@
                    transition: width .3s;     
               }
 
-            .cool-link:hover::after{
+            .cool-link:hover::after, .cool-link:active::after, .cool-link:focus::after   {
                 width:100%;
                 transition: width .3s;
                 
-              }
-              
-             
+              }    
       </style>
       
 
