@@ -10,33 +10,27 @@
     transition: 0.3s;
     margin-bottom:10px;
 }
-
 .price:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
-
 .price .header {
     background-color: #111;
     color: white;
     font-size: 25px;
 }
-
 .price li {
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
 }
-
 .price .grey {
     background-color: #eee;
     font-size: 20px;
 }
-
 .price .green {
     background-color: #8db600;
     font-size: 20px;
 } 
-
 .price .blue {
     background-color: #6495ED;
     font-size: 20px;
@@ -50,44 +44,30 @@
     text-decoration: none;
     font-size: 18px;
 }
-
 div.a {
   text-align: center;
 }
-
 div.b {
   text-align: left;
 }
-
 div.c {
   text-align: right;
 }
-
 div.d {
   text-align: justify;
 }
-
 #bienvenida {color:white;background:#B7B4D5;}
 #bienvenida2 {color:#0f0;}
 #bienvenida3 {color:#f00;}
-
-
-
 .graph {
 position: relative; /* IE is dumb */
 width: 500px;
-
 padding: 2px;
 }
-
 .right{
     float: right;
     background:red
 }
-
-
-
-
 .graph .bar {
 display: block;
 position: relative;
@@ -98,14 +78,11 @@ height: 2em;
 line-height: 2em;
 }
 .graph .bar span { position: absolute; left: 1em; }
-
-
 @media only screen and (max-width: 600px) {
     .columns {
         width: 100%;
     }
 }
-
 </style>
 
 
@@ -241,5 +218,4 @@ line-height: 2em;
 
 	<?php 
 include('footer.php');
-
 ?>

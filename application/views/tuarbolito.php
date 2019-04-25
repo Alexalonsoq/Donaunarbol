@@ -13,9 +13,7 @@
 
 .header{
   max-width:100%;
-  /* max-height:auto; */
   heigh:auto;
-  /* display:block; */
   background: url('../img/patri.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -75,15 +73,12 @@
   }
 }
 
-
-
-
-
 .arbol{
   background-color:rgba(0,0,0,.4);
   padding:2%;
+  padding-top:3%;
   margin:10% 0%;
-  padding-bottom:4%;
+  padding-bottom:7%;
   color:white;
 }
 
@@ -111,6 +106,8 @@
   height:34px;
   background-color:yellow;
   padding:0;
+  font-family: fontFooter;
+  font-size:20px;
 }
 
 input{
@@ -121,9 +118,38 @@ input{
   border:none;
 }
 
-.bigPadding{
-  padding:5% 0;
+.tuArbolito p{
+  font-size:13px;
 }
+
+
+.tuArbolitoText p{
+  margin:30% 0;
+  font-family: lightHelvetica;
+}
+.busca, input{
+  font-family: fontFooter;
+  font-size:20px;
+}
+
+.price h3{
+  font-family: boldHelvetica;
+}
+
+.container h1{
+  font-family: boldHelvetica;
+}
+
+.icons{
+  padding:10% 0;
+}
+
+.imagenes {
+  margin-bottom:5%;
+}
+
+
+
 
 
 </style>
@@ -131,13 +157,13 @@ input{
 
 
 <div class= "header">
-    <div class="container ">
+    <div class="container tuArbolito">
         <div class="row justify-content-md-center ">
-              <div class="col-md-5  arbol">
+              <div class="col-md-6  arbol">
 
                 <div class="row ">
                           <div class="col-md-12 align-items-start">
-                              <h3>Busca la foto de tu Árbol</h3>
+                              <h3 class="busca">Busca la foto de tu Árbol</h3>
                           </div>
                 </div>
                 <br>
@@ -173,163 +199,90 @@ input{
     </div>
 </div>
 
-<!-- <img src="../img/patri.jpg" width="100%" height="800" class="img-responsive"> -->
-
-<div class="container-fluid">
-<div class="row justify-content-md-center"> 
-<div class="col-sm-6 align-items-start bigPadding"  >
- <p>
-  
-  <br><br>
-  <h3 class="text-justify">Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándole su árbol
-  por  medio de una  fotografia. Cuando  una persona  dona un  árbol al
-  mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
-  para ser parte del cambio en este planeta y esa voluntad la puede ver
-  cristalizada en el nuevo árbol que dio al mundo.</h3> <br><br>
-  <br>
-  <br><br><br>
-</p>
-</div>
-</div>
+<div class="container-fluid tuArbolitoText">
+    <div class="row justify-content-md-center"> 
+        <div class="col-sm-6 align-items-start"  >
+              <p class="text-justify">Para nosotros es  muy importante generar un vínculo  entre las personas y  la naturaleza, una  forma de lograrlo es presentándoles su árbol
+              por  medio de una  fotografia. Cuando  una persona  Dona un  Árbol al
+              Mundo, no  solo  entrega  una suma  de dinero,  sino que se involucra
+              para ser parte del cambio en este planeta y esa voluntad la puede ver
+              reflejada en el nuevo árbol que dio al mundo.</p> 
+        </div>
+    </div>
 </div>
 
-<div class="row  no-gutters"  >
+<div class="row  no-gutters imagenes"  >
  
- <div class=" col-sm-4 col-lg-4">
-  <img src="../img/gust.jpg"    class="img-responsive">
-</div>
-<div class="col-sm-4 col-lg-4 " >
- <img src="../img/germa.jpg"   class="img-responsive">
-</div>
-<div class="col-sm-4 col-lg-4 " >
-  <img src="../img/e042 _GUSTAVO.jpeg"     class="img-responsive">
-</div>
+    <div class=" col-sm-4 col-lg-4">
+      <img src="../img/gust.jpg"    class="img-responsive">
+    </div>
+    <div class="col-sm-4 col-lg-4 " >
+      <img src="../img/germa.jpg"   class="img-responsive">
+    </div>
+    <div class="col-sm-4 col-lg-4 " >
+      <img src="../img/e042 _GUSTAVO.jpeg"     class="img-responsive">
+    </div>
 
 </div>
-
-<br>
-<br>
-
-<br>
 
 <div class="container colorGray">
-<div class="row justify-content-md-center"  >
- <div class="col-sm-9">
- <div class="row">
-   <div class="col-sm-3">
-      <h1 style="color:#80a8d9";>Tu arbolito </h1>
-   </div>
- </div>
-</div>
-</div>
-  
-<br>
-<br>
-
-<div class="row justify-content-md-center">
-      <div class="col-sm-3 col-lg-4">
-        <ul class="price">
-          <li > 
-            <div >
-              <h3 style=" color:#6495ED" >
-                Especies de nuestros árboles
-              </h3>
-              <img src="../img/arbol_azul.png" alt="" class="img-responsive">
+  <div class="row justify-content-md-center"  >
+      <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-3">
+                <h1 style="color:#80a8d9";>Tu arbolito </h1>
             </div>
-           </li>
-         </ul>
-       </div>
-      
-       <div class="col-sm-3 col-lg-4">
-            <ul class="price">
-              <li class="blue"> 
-                <div >
-                  <h3 style=" color:white" >
-                    Beneficios de los árboles
-                  </h3>
-                  <img src="../img/carita2.png" alt="" class="img-responsive">
-                </div>
-              </li>
-             </ul>
-         </div>
-
-      <div class="col-sm-3 col-lg-4">
-          <ul class="price">
-            <li  > 
-              <div >
-                <h3 style=" color:#6495ED">
-                  Brigadas
-                </h3>
-            <img src="../img/Chaleco.png" alt="" class="img-responsive">
-                </div>
-              </li>  
-              </ul>
+          </div>
       </div>
-</div>
-
-</div>
-
- 
-
+  </div>
   
 
+      <div class="row justify-content-md-center icons">
+            <div class="col-sm-3 col-lg-4">
+              <ul class="price">
+                <li > 
+                  <div >
+                    <h3 style=" color:#6495ED" >
+                      Especies de nuestros árboles
+                    </h3>
+                    <img src="../img/arbol_azul.png" alt="" class="img-responsive">
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-3 col-lg-4">
+                  <ul class="price">
+                    <li class="blue"> 
+                      <div >
+                        <h3 style=" color:white" >
+                          Beneficios de los árboles
+                        </h3>
+                        <img src="../img/carita2.png" alt="" class="img-responsive">
+                      </div>
+                    </li>
+                  </ul>
+              </div>
 
-
-
-    
-
-
-
-
-
-
-
-<div class="container">
-
-
-
-  <br><br>
-  <br><br>
-
-</div>
+            <div class="col-sm-3 col-lg-4">
+                <ul class="price">
+                  <li  > 
+                    <div >
+                      <h3 style=" color:#6495ED">
+                        Brigadas
+                      </h3>
+                  <img src="../img/Chaleco.png" alt="" class="img-responsive">
+                      </div>
+                    </li>  
+                    </ul>
+            </div>
+      </div>
 </div>
 
 
 <div class="content clearfix">
-
-
-
   <img src="../img/brigada.jpg"  height="800" class="img-responsive">
-
-
 </div>
-
-
-
-
-
-
-  <!-- <div class="col-sm-6">
- <img src="../img/grafica.png" class="img-responsive">
-  </div>
- 
-
- <div class="col-sm-6"> 
-  <br><br><br>
-  <h3>
-  SI AÚN NO HAS RECIBIDO TU ARBOLITO ESCRIBENOS A
-  contacto@portalsocial.mx Ó LLAMANOS AL 2228383691.</h3>
-  <br>
-
-  <h4>Por diversas razones puede que no te haya llegado; quizá aún  </h4>
-  <h4>no es plantado, o nuestro equipo no ha tomado la fotografia, o</h4>
-  <h4>quizá llegó a tu correo a la bandeja de no deseados y por ello</h4>
-  <h4>ello no lo has podido ver. Algunas de estas pueden ser las ra-</h4>
-  <h4>zones por eso te pedimos que nos contactes y nos envíes el</h4>
-  <h4>número de folio de tu arbolito.</h4>
-</div> -->
-
-
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 

@@ -16,9 +16,7 @@ include('menu.php');
 
 .header{
   max-width:100%;
-  /* max-height:auto; */
   heigh:auto;
-  /* display:block; */
   background: url('img/fondo.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +92,7 @@ include('menu.php');
 .fondodiv {
       padding: 14px;
       background-color: #2ECCFA;
-    }
+}
 .conoceMas{
   background-color:#80a8d9;
   border-color:#80a8d9;
@@ -133,6 +131,7 @@ include('menu.php');
 .dona{
   margin-top:10%;
   width:100%;
+ 
 }
 
 #topRank{
@@ -143,9 +142,74 @@ include('menu.php');
 
 .topRank{
   margin-top:2%;
+  font-family:fontFooter;
+}
+.logos{
+  background-color:#f4f4f4;
 }
 
+@font-face {
+    font-family: title;
+    src: url(img/fonts/GOTHAM-ULTRA.ttf);
+}
+@font-face {
+    font-family: dona;
+    src: url(img/fonts/HELVETICALTSTD-ROMAN.otf);
+}
+#participacion{
+  font-family:title;
+  font-size:33pt;
+}
 
+#dona{
+  font-family:dona;
+  font-size:20pt;
+  background-color:#80a8d9;
+}
+
+.dona{
+  background-color:#80a8d9;
+  border-color:#80a8d9;
+}
+
+.arbol h3{
+  font-family:gothamMedium;
+  font-size:32px;
+}
+
+.invitacion h2{
+  font-family: boldHelvetica;
+}
+
+.gracias h1{
+  font-family:fontFooter;
+}
+
+.necesitamos h1{
+  font-family:fontFooter;
+}
+
+.boton a{
+  font-family:myFont;
+}
+
+.grey h3{
+  font-family:fontFooter;
+  font-size:20px;
+}
+
+.green h3{
+  font-family:fontFooter;
+  font-size:20px;
+}
+
+.dark-grey h3 {
+  font-family:fontFooter;
+  font-size:20px;
+}
+.ayuda{
+  padding:4% 0;
+}
 </style>
 
 
@@ -157,23 +221,23 @@ include('menu.php');
 <div class= "header">
     <div class="container ">
         <div class="row justify-content-start ">
-              <div class="col-md-8  arbol">
+              <div class="col-md-12  arbol">
 
                 <div class="row ">
                           <div class="col-md-12 align-items-center callToAction">
-                              <h1>¡Tu participación es importante!</h1>
+                              <h1 id="participacion">¡Tu participación es importante!</h1>
                           </div>
                 </div>
                 <br>
                 <div class="row">
-                        <div class="col-md-5  align-items-center regala">
+                        <div class="col-md-5  align-items-center regala ">
                             <h3>Regala un árbol al mundo</h3>
                         </div>
                 </div>
 
                 <div class="row">
-                        <div class="col-md-3  align-items-center ">
-                        <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" "><h4>DONA</h4></a>
+                        <div class="col-md-2  align-items-center ">
+                          <a class="btn btn-primary dona" href="<?php echo base_url();?>home/dona"  role="button" ><h4 id="dona">DONA</h4></a>
                         </div>
                 </div>
                 <br>
@@ -189,27 +253,29 @@ include('menu.php');
 
 
 
-<div class="container" align="center">
-    <div class="row justify-content-md-center">
-        <div class="col-md-8">
-            <h1 color="blue">Necesitamos tu ayuda</h1>
+<div class="ayuda">
+      <div class="container" align="center">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8 necesitamos">
+                  <h1 color="blue " >Necesitamos tu ayuda</h1>
+              </div>
+          </div>
+          <br>
+          <div class="row justify-content-md-center">
+              <div class="col-md-8" align="center"> 
+                  <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el cambio
+              climático y nuestra forma de hacerlo es plantando árboles, ya que cada
+              año se pierden más de 15 mil millones.</h3>
+              <h2>¡Vamos a recuperarlos!</h2>
+              </div>
+          </div>
+      <br>
+        <div class="row justify-content-md-center boton">
+            <div class="col-md-8">
+                <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row justify-content-md-center">
-        <div class="col-md-8" align="center"> 
-            <h3 style="color:grey"; >Estamos trabajando por un mundo mejor, luchando contra el Cambio
-        Climático y nuestra forma de hacerlo es plantando árboles, ya que cada
-        año se pierden mas de 15 mil millones.</h3>
-         <h2>¡Vamos a recuperarlos!</h2>
-         </div>
-    </div>
-<br>
-  <div class="row justify-content-md-center">
-      <div class="col-md-8">
-           <a class="btn btn-primary conoceMas" href="<?php echo base_url();?>home/campana" target="_blank" role="button"> <h2>Conoce más</h2></a>
       </div>
-  </div>
 </div>
 <br>
 <br>
@@ -227,11 +293,11 @@ include('menu.php');
                 
             </div>
 
-<div class="container">
+<div class="container invitacion">
     <div class="container">
         <div class="row">
             
-          <div class="col-sm-4" style="color:black";>  <h2>Por eso queremos invitarte a Donar un Árbol al Mundo</h2>
+          <div class="col-sm-4" style="color:black";>  <h2 style="font-weight:bold">Por eso queremos invitarte a Donar un Árbol al Mundo</h2>
           <br>
  <h3 style="color:grey"> Así podrás recibir la foto de tu árbol por correo electrónico o descargarla en nuestra página</h3>
  <br>
@@ -269,43 +335,44 @@ include('menu.php');
 <div class="container-fluid" id="topRank">
   <div class="row justify-content-center">
     <div class="col-md-12 align-items-center">
-        <h1 align="center " class="topRank">Top rank donadores</h1>
+        <h1 align="center " class="topRank">Top Rank Donadores</h1>
     </div>
   </div>
 </div>
   
 
-<div class=" mb-2 bg-light">
-  <ul class="price">
-    <li  style=" color:grey" > <h1 >Esta campaña es llevada a cabo por el Portal Social, The Tree School </h1>
-    <h1> y muchas comunidades en México y Colombia; todos juntos trabajan para lograr el objetivo de plantar </h1>
-    <h1> más de 50 mil árboles para el 2020.</h1>
-     </li>
-     <li>
-    	<div class="container-fluid" align="center">
-  			<img src="<?php echo base_url();?>img/treeschool2.png" width="200" height="200"  >
-  			<img src="<?php echo base_url();?>img/portal-social2.png" width="200" height="200" >
-  			<img src="<?php echo base_url();?>img/sierra2.png" width="200" height="200" >
+<div class="container-fluid logos">
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+        <br>
+        <br>
+          <h1 align="center"   style=" color:grey" >
+              Esta campaña es llevada a cabo por el Portal Social, The Tree School 
+              y muchas comunidades en México y Colombia; todos juntos trabajan para lograr el objetivo de plantar
+              más de 50 mil árboles para el 2020
+          </h1>
+        </div>
+    </div>
+    <br>
+    	<div class="content clearfix ">
+  			<img src="<?php echo base_url();?>img/logosSocial.png"  width="3500px"  class="img-responsive"> 
   		</div>
-</li>
-    
-  </ul>
+
 </div>
 
 
-<div class="container-fluid ">
-  <div class="row">
-    <div class="col-lg-12">
-        <img src="<?php echo base_url();?>img/vista.jpg" width="3500px"  class="img-responsive">
-    </div>
-  </div>
+<div class="content clearfix ">
+  
+        <img src="<?php echo base_url();?>img/vistaRecortada.jpg" width="3500px"  class="img-responsive">
+   
 </div>
 
 <!-- <div style="clear:both;" > </div> -->
 <br>
 <br>
 <div class="container">
-  <div class="row  justify-content-center">
+  <div class="row  justify-content-center gracias">
     <div class="col-md-12">
       <h1 align="center "  style=" color:grey" >
         Gracias a miles de donadores este proyecto es posible, entre ellos, valiosas empresas e instituciones que han ayudado a nuestra casusa de manera muy especial

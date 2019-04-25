@@ -3,21 +3,51 @@
     font-family: myFont;
     src: url(img/fonts/FontsFree-Net-HelveticaNeueLTCom-LtCn.ttf);
 }
+@font-face {
+    font-family: fontFooter;
+    src: url(img/fonts/HELVETICALTSTD-ROMAN.otf);
+   
+}
+
+@font-face {
+    font-family: gothamMedium;
+    src: url(img/fonts/GOTHAM-MEDIUM.TTF);
+   
+}
+
+@font-face {
+    font-family: lightHelvetica;
+    src: url(img/fonts/HelveticaLTStd-Light.OTF);
+   
+}
+
+@font-face {
+    font-family: boldHelvetica;
+    src: url(img/fonts/HelveticaLTStd-Bold.OTF);
+   
+}
+
+
+
+
 
 body{
     font-family: myFont !important;
  }
- footer {
-     font-family: 'Monserrat', sans-serif !important;
-     
-}
+ 
 
-footer h6, p, a{
-    font-size: 13px !important;
-   
+.footer h4, p, a, h6{
+    font-family:fontFooter;
+    font-size: 12pt;
+ 
 }
 
 footer a{
     text-decoration: none  !important;
     color:black !important;
+    background-color:#ffffff;
+}
+
+.footer{
+    height: 90vh;
 }
