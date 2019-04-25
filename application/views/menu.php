@@ -118,7 +118,7 @@
                       flex-direction: column;
                       align-items: center;
                       width: 100%;
-                      justify-content: center;
+                      /* justify-content: center; */
                      
                       /* lo saco de la pantalla asi */
                       transform: translate(100%);
@@ -156,7 +156,7 @@
 
                  #donaBoton{
                    font-size:15px;
-                   margin-bottom:10%;
+                   text-align:center;
                  }
                   
               }
@@ -196,7 +196,7 @@
                 color:White;
                 margin-top:auto;
                 width:100%;
-                padding:13%;
+                
                 padding:13% 30%;
                 background-color:#80a8db;
                 border-color:#80a8d9;
@@ -208,14 +208,14 @@
                    display:block;
                    width:0;
                    height:2px;
-                   background:#fff;
+                   background:black;
                    transition: width .3s;     
               }
 
             .cool-link:hover::after{
                 width:100%;
                 transition: width .3s;
-
+                
               }
               
              
