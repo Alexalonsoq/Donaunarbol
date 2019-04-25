@@ -139,6 +139,11 @@
                     top: 0;
                     width: 100%;
                   }
+
+                  #donaBoton{
+                    width:100%;
+                    padding:4%;
+                  }
                   
               }
 
@@ -170,6 +175,29 @@
                   transform: rotate(45deg) translate(-5px,-6px);
               }
 
+              .botoncito { 
+                background-color:#80a8db;
+                border-color:#80a8d9; 
+                color:white;
+                width:10%;
+             
+              }
+
+              
+              #donaBoton{
+                color:White;
+                font-family: fontFooter
+                margin-top:auto;
+                width:100%;
+                padding:6%;
+                background-color:#80a8db;
+                border-color:#80a8d9;
+                color:white;
+                font-family:fontFooter;
+              }
+              
+              
+
               /* .sticky-top nav{
                 overflow-x:hidden;
                 overflow-y:block;
@@ -191,7 +219,7 @@
                     <li><a href="<?php echo base_url();?>home/arbolito">Tu árbolito</a></li>
                     <li><a href="<?php echo base_url();?>home/sus">Sostenibilidad</a></li>
                     <li><a href="#footer">Contacto</a></li>
-                    <li><a class="btn btn-primary" href="<?php echo base_url();?>home/dona"  role="button">DONA</a></li>
+                    <li class="botoncito"><a class="btn btn-primary "id="donaBoton"  href="<?php echo base_url();?>home/dona"  role="button">DONA</a></li>
                 </ul>
 
                 <div class="burger">
