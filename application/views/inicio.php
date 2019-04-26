@@ -15,6 +15,9 @@ include('menu.php');
 }
 
 .header{
+  /* position:absolute;
+  top:0; */
+  margin-top:-12vh;
   max-width:100%;
   heigh:auto;
   background: url('img/fondo.jpg');
@@ -210,15 +213,15 @@ include('menu.php');
 .ayuda{
   padding:4% 0;
 }
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
 </style>
 
 
-
-<!-- <div class="contenedor-fluid">
-  <img src="<?php echo base_url();?>img/fondo.jpg" width="1500"  class="img-responsive fondo" >
-</div> -->
-
-<div class= "header">
+<div class= "header" id="header">
     <div class="container ">
         <div class="row justify-content-start ">
               <div class="col-md-12  arbol">

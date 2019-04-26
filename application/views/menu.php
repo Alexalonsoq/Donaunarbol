@@ -50,9 +50,13 @@
                   justify-content: space-around;
                   align-items: center;
                   min-height:12vh;
-                  background-color: white;
+                 
                   z-index:100;
 
+              }
+
+              .scroll{
+                 background-color: white;
               }
 
               .logo{
@@ -147,6 +151,7 @@
                     position: fixed;
                     top: 0;
                     width: 100%;
+                    background-color:white;
                   }
 
                  
@@ -213,7 +218,7 @@
                    content:'';
                    display:block;
                    width:0;
-                   height:2px;
+                   height:1px;
                    background:black;
                    transition: width .3s;     
               }
@@ -229,7 +234,7 @@
     </head>
     <body>
         <div class="sticky-top" >
-            <nav >
+            <nav id="navbar">
                 <div class="logo">
                   <li><a href="<?php echo base_url();?>""><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
                 </div>

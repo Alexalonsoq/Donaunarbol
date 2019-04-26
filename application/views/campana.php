@@ -135,7 +135,7 @@ span{
 </style>
 
 
- <div id="myParallax" class="mainImage">
+ <div id="myParallax" class="mainImage" id="campana">
             <div class="caption">
                 <span id="myBorder" class="textWorld">NUESTRA CAMPAÑA</span>
                 <br>
