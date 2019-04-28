@@ -1,3 +1,10 @@
+<style>
+  /* @media screen and (max-width:768px){
+  #footer{
+    margin-top:12vh;
+  }
+} */
+</style>
 <footer class="page-footer font-small blue pt-4 footer pb-4" id="footer">
 
     <!-- Footer Links -->

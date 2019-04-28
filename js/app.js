@@ -3,6 +3,11 @@ const navSlide = ()=>{
     const nav = document.querySelector(".nav-links");
     const navLinks =document.querySelectorAll(".nav-links li");
     const contacto =document.querySelector("#contacto");
+    const links =document.querySelectorAll("li a");
+    const links2 =document.querySelectorAll( 'a[href="'+document.URL+'"]');
+   
+    // const link =document.querySelector(".cool-link");
+    
     
     burger.addEventListener("click",()=>{
         // toggle nav
@@ -22,6 +27,26 @@ const navSlide = ()=>{
         // toggle the toggle class
         burger.classList.toggle("toggle");
     });
+
+   
+
+    links.forEach((link)=>{
+        console.log(links);
+        link.addEventListener("click",function(){
+             console.log(link); 
+            links.forEach((link)=>{
+                link.classList.remove("active");
+                this.classList.add("active");
+            });
+            
+            console.log("El seleccionado es "+this);
+        });
+    });
+
+    links2[0].classList.add("active");
+
+
+
 
     console.log("El tam de la pantalla es "+screen.width);
    if(screen.width<=768){
@@ -69,25 +94,7 @@ const navSlide = ()=>{
 
 }
 
-// function menu(num)
-// {
-//     if(num==1)
-//         var seccion='#header';
-//     else if(num==2)
-//         var seccion='#Campana';
-//     else if(num==3)
-//         var seccion='#Quienes';
-//     else if(num==4)
-//         var seccion='#Arbolito'
-//     else if(num==5)
-//         var seccion='#Sotenibilidad'
-//     else if(num==6)
-//         var seccion='#Contacto'
-//     else if(num==6)
-//         var seccion='#footer'
 
-//     $("html, body").animate({scrollTop: $(seccion).offset().top}, 1000);
-// }
 
 
 

@@ -34,9 +34,9 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity=""></script>
-      
+     
       <link rel="stylesheet" href="<?php echo base_url();?>custom.css">
-
+  
       <style>
               *{
                   margin:0;
@@ -230,7 +230,20 @@
                 width:100%;
                 transition: width .3s;
                 
-              }    
+            }
+
+            .active::after{
+                content:'';
+                display:block;
+                width:100%;
+                height:1px;
+                background:black;
+                   /* transition: width .3s;   */
+              
+            }
+
+           
+        
       </style>
       
 
@@ -242,12 +255,12 @@
                   <li><a href="<?php echo base_url();?>" onclick="menu(1)"><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
                 </div>
                 <ul class="nav-links">
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" onclick="menu(2)">Campaña</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/somos" onclick="menu(3)">¿Quiénes somos?</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito" onclick="menu(4)">Tu árbolito</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/sus" onclick="menu(5)">Sostenibilidad</a></li>
-                    <li><a class ="cool-link"href="#footer" onclick="menu(6)" id="contacto">Contacto</a></li>
-                    <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona" onclick="menu(7)" role="button">DONA</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" >Campaña</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/somos" >¿Quiénes somos?</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito" >Tu árbolito</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/sus" >Sostenibilidad</a></li>
+                    <li><a class ="cool-link"href="#footer"  id="contacto">Contacto</a></li>
+                    <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona"  role="button">DONA</a></li>
                 </ul>
 
                 <div class="burger">

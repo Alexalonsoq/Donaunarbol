@@ -141,7 +141,8 @@ span{
 
 </style>
 
-
+<div id="campana">
+      
  <div  class="mainImage" id="header">
             <div class="caption">
                 <span id="myBorder" class="textWorld">NUESTRA CAMPAÑA</span>
@@ -281,6 +282,7 @@ span{
   <img src="../img/pexels-photo.jpg" width="2500" height="500" class="img-responsive">    
 </div>
 
+</div>
  
 
   
