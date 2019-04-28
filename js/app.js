@@ -23,10 +23,27 @@ const navSlide = ()=>{
         burger.classList.toggle("toggle");
     });
 
-    
+    console.log("El tam de la pantalla es "+screen.width);
+   if(screen.width<=768){
     contacto.addEventListener("click",()=>{
-        nav.classList.remove("nav-active");
+        // nav.classList.remove("nav-active");
+        nav.classList.toggle("nav-active");
+        // animate links
+        navLinks.forEach((link, index) =>{
+            // delay between each link 
+            if(link.style.animation){
+                link.style.animation =''
+            }
+            else{
+                link.style.animation =`navLinkFade 0.5s ease forwards ${index/7 + .5}s`;
+            }
+        });
+
+        // burger animation
+        // toggle the toggle class
+        burger.classList.toggle("toggle");
     });
+   }
     
 
     window.onscroll = () => {
