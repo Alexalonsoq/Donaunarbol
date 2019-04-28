@@ -246,7 +246,7 @@
                     <li><a class ="cool-link"href="<?php echo base_url();?>home/somos" onclick="menu(3)">¿Quiénes somos?</a></li>
                     <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito" onclick="menu(4)">Tu árbolito</a></li>
                     <li><a class ="cool-link"href="<?php echo base_url();?>home/sus" onclick="menu(5)">Sostenibilidad</a></li>
-                    <li><a class ="cool-link"href="#footer" onclick="menu(6)">Contacto</a></li>
+                    <li><a class ="cool-link"href="#footer" onclick="menu(6)" id="contacto">Contacto</a></li>
                     <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona" onclick="menu(7)" role="button">DONA</a></li>
                 </ul>
 

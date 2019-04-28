@@ -2,7 +2,8 @@ const navSlide = ()=>{
     const burger =document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
     const navLinks =document.querySelectorAll(".nav-links li");
-   
+    const contacto =document.querySelector("#contacto");
+    
     burger.addEventListener("click",()=>{
         // toggle nav
         nav.classList.toggle("nav-active");
@@ -22,6 +23,12 @@ const navSlide = ()=>{
         burger.classList.toggle("toggle");
     });
 
+    
+    contacto.addEventListener("click",()=>{
+        nav.classList.remove("nav-active");
+    });
+    
+
     window.onscroll = () => {
         const header= document.querySelector("#header");
         const nav = document.querySelector('#navbar');
@@ -32,6 +39,8 @@ const navSlide = ()=>{
             // console.log(campana.offsetHeight)
             
         } 
+
+       
          else {
             nav.className = '';
          }
