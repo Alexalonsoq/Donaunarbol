@@ -5,7 +5,7 @@
 
 
 
-#myParallax{
+#header, #myParallax{
   position:relative;
   background-attachment: fixed;
   background-position: center;
@@ -16,10 +16,11 @@
 .mainImage{
   background-image: url(../img/biology-blur-close-up.jpg);
   min-height:500px;
+  margin-top:-12vh;
 }
 
 @media only screen and (max-device-width: 1024px) {
-  #myParallax {
+  #header {
     background-attachment: scroll;
     width: 100%;
     height:auto;
@@ -132,10 +133,16 @@ span{
  
 }
 
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
+
 </style>
 
 
- <div id="myParallax" class="mainImage" id="campana">
+ <div  class="mainImage" id="header">
             <div class="caption">
                 <span id="myBorder" class="textWorld">NUESTRA CAMPAÑA</span>
                 <br>

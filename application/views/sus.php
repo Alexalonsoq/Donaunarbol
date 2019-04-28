@@ -92,11 +92,18 @@ h2{
   font-family:fontFooter;
 }
 
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
+
+
 </style>
 
 
 
-<div class="content clearfix">
+<div class="content clearfix" id="header">
     <img src="../img/d.jpg" width="1500" height="700" class="img-responsive">
 </div>
 

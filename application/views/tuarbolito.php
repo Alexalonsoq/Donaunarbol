@@ -19,6 +19,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  margin-top:-12vh;
 }
 
 .price:hover {
@@ -148,6 +149,12 @@ input{
   margin-bottom:5%;
 }
 
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
+
 
 
 
@@ -156,7 +163,7 @@ input{
 
 
 
-<div class= "header">
+<div class= "header" id="header">
     <div class="container tuArbolito">
         <div class="row justify-content-md-center ">
               <div class="col-md-6  arbol">

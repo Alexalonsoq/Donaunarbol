@@ -25,16 +25,43 @@ const navSlide = ()=>{
     window.onscroll = () => {
         const header= document.querySelector("#header");
         const nav = document.querySelector('#navbar');
-        const campana = document.querySelector('#campana');
-        if(this.scrollY > header.offsetHeight || this.scrollY > campana.offsetHeight){
+        // const sus = document.querySelector("body > div.content.clearfix > img");
+        if(  this.scrollY > header.offsetHeight ){
+            console.log(header.offsetHeight);
             nav.className = 'scroll';
+            // console.log(campana.offsetHeight)
             
         } 
          else {
             nav.className = '';
          }
     };
+
+ 
+   
+   
+
 }
+
+// function menu(num)
+// {
+//     if(num==1)
+//         var seccion='#header';
+//     else if(num==2)
+//         var seccion='#Campana';
+//     else if(num==3)
+//         var seccion='#Quienes';
+//     else if(num==4)
+//         var seccion='#Arbolito'
+//     else if(num==5)
+//         var seccion='#Sotenibilidad'
+//     else if(num==6)
+//         var seccion='#Contacto'
+//     else if(num==6)
+//         var seccion='#footer'
+
+//     $("html, body").animate({scrollTop: $(seccion).offset().top}, 1000);
+// }
 
 
 

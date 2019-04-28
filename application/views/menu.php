@@ -44,6 +44,9 @@
                   box-sizing: border-box;
 
               }
+              html{
+                scroll-behavior: smooth;
+              }
 
               nav{
                   display: flex;
@@ -236,15 +239,15 @@
         <div class="sticky-top" >
             <nav id="navbar">
                 <div class="logo">
-                  <li><a href="<?php echo base_url();?>""><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
+                  <li><a href="<?php echo base_url();?>" onclick="menu(1)"><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
                 </div>
                 <ul class="nav-links">
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/campana">Campaña</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/somos">¿Quiénes somos?</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito">Tu árbolito</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/sus">Sostenibilidad</a></li>
-                    <li><a class ="cool-link"href="#footer">Contacto</a></li>
-                    <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona"  role="button">DONA</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" onclick="menu(2)">Campaña</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/somos" onclick="menu(3)">¿Quiénes somos?</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito" onclick="menu(4)">Tu árbolito</a></li>
+                    <li><a class ="cool-link"href="<?php echo base_url();?>home/sus" onclick="menu(5)">Sostenibilidad</a></li>
+                    <li><a class ="cool-link"href="#footer" onclick="menu(6)">Contacto</a></li>
+                    <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona" onclick="menu(7)" role="button">DONA</a></li>
                 </ul>
 
                 <div class="burger">
