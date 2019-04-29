@@ -83,10 +83,16 @@ line-height: 2em;
         width: 100%;
     }
 }
+
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
 </style>
 
 
-<div class="row">
+<div class="row" id="header">
   <div class="col-sm-6 "><img src="../img/frase.jpg"  class="img-responsive"></div>
   
   <div class="col-sm-6 align-self-center" >

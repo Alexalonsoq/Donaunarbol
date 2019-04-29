@@ -4,7 +4,7 @@ const navSlide = ()=>{
     const navLinks =document.querySelectorAll(".nav-links li");
     const contacto =document.querySelector("#contacto");
     const links =document.querySelectorAll("li a");
-    const links2 =document.querySelectorAll( 'a[href="'+document.URL+'"]');
+    const actualLink =document.querySelectorAll( 'a[href="'+document.URL+'"]');
    
     // const link =document.querySelector(".cool-link");
     
@@ -31,24 +31,35 @@ const navSlide = ()=>{
    
 
     links.forEach((link)=>{
-        console.log(links);
+       
         link.addEventListener("click",function(){
-             console.log(link); 
-            links.forEach((link)=>{
-                link.classList.remove("active");
-                this.classList.add("active");
-            });
+            console.log("eL LINK DE DONA ES "+link);
+            console.log(document.URL);
             
-            console.log("El seleccionado es "+this);
+                links.forEach((link)=>{
+                    link.classList.remove("active");
+                    this.classList.add("active");
+                });
+                
         });
     });
 
-    links2[0].classList.add("active");
+    // if(actualLink=="a#donaBoton"){
+    //     console.log("El link actual es  "+link);
+    //     link.classList.remove("active"); 
+    // }
+    // else{
+        
+
+    // }
+
+    
+   actualLink[0].classList.add("active");
 
 
 
 
-    console.log("El tam de la pantalla es "+screen.width);
+    
    if(screen.width<=768){
     contacto.addEventListener("click",()=>{
         // nav.classList.remove("nav-active");
@@ -76,7 +87,7 @@ const navSlide = ()=>{
         const nav = document.querySelector('#navbar');
         // const sus = document.querySelector("body > div.content.clearfix > img");
         if(  this.scrollY > header.offsetHeight ){
-            console.log(header.offsetHeight);
+            
             nav.className = 'scroll';
             // console.log(campana.offsetHeight)
             

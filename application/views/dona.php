@@ -91,11 +91,17 @@
 .fondo{
   margin-top:-20%;
 }
+
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
 </style>
 
 
 
-<div class="contenedor-fluid">
+<div class="contenedor-fluid" id="header">
   <!--//Cambiar Imagen//!-->
   <img src="<?php echo base_url();?>img/fondo.jpg" width="1500"  class="img-responsive fondo" >
 </div>

@@ -55,6 +55,7 @@
                   min-height:12vh;
                  
                   z-index:100;
+                  transition:all .2s ease;
 
               }
 
