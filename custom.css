@@ -11,19 +11,31 @@
 
 @font-face {
     font-family: gothamMedium;
+<<<<<<< HEAD
     src: url(img/fonts/GOTHAM-MEDIUM.TTF);
+=======
+    src: url(img/fonts/GOTHAM-MEDIUM.ttf);
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
    
 }
 
 @font-face {
     font-family: lightHelvetica;
+<<<<<<< HEAD
     src: url(img/fonts/HelveticaLTStd-Light.OTF);
+=======
+    src: url(img/fonts/HELVETICALTStd-Light.otf);
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
    
 }
 
 @font-face {
     font-family: boldHelvetica;
+<<<<<<< HEAD
     src: url(img/fonts/HelveticaLTStd-Bold.OTF);
+=======
+    src: url(img/fonts/HelveticaLTStd-Bold.otf);
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
    
 }
 
@@ -50,4 +62,9 @@ footer a{
 
 .footer{
     height: 90vh;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000

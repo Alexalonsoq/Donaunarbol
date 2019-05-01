@@ -14,6 +14,35 @@
 
 p{
   font-size:13pt;
+<<<<<<< HEAD
+}
+
+#ambiental{
+  margin:10% 0;
+}
+
+#myBorder{
+    color: #fff;
+    padding: 18px;
+    font-size: 25pt;
+    letter-spacing: 10px;
+    background-color:rgba(122,122,122,.5);;
+}
+.caption h3{
+    color: #fff;
+    padding: 18px;
+    font-size: 25pt;
+}
+
+.caption{
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+=======
 }
 
 #ambiental{
@@ -49,6 +78,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
 }
 @media only screen and (max-device-width: 1024px) {
   #myParallax {
@@ -57,6 +87,23 @@ p{
     height:auto;
   }
 
+<<<<<<< HEAD
+#myParallax{
+  position:relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1024px) {
+  #myParallax {
+    background-attachment: scroll;
+    width: 100%;
+    height:auto;
+  }
+
+=======
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
   #myBorder{
     font-size: 25pt;
     letter-spacing: 4px;
@@ -92,11 +139,47 @@ h2{
   font-family:fontFooter;
 }
 
+<<<<<<< HEAD
 </style>
 
 
+=======
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
+
+
+</style>
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
 
 <div class="content clearfix">
+    <img src="../img/d.jpg" width="1500" height="700" class="img-responsive">
+</div>
+
+<<<<<<< HEAD
+<div class="container-fluid"  style="background-color: #f4f4f4;">
+    <div class="row" id="ambiental" >
+
+      <div class="col-md-4 no-gutters text-center ">
+        <h2 style="color: black" >Ambiental</h2>
+      </div>
+
+      <div class="col-md-6 no-gutters" style="background-color:#f4f4f4;">
+            <iframe src="//www.youtube.com/embed/BWUhR1GQaYk?autoplay=0" width="100%" height="315" class="video" margin-top="0" > </iframe>
+
+            <div class="col-md-12 texto text-justify no-gutters mt-5" padding="0" >
+                <p  padding="0">
+                    La reforestación de la zona ha significado una mejora inmediata en la calidad
+                    del suelo, el cual al ser poco profundo tiende a erosionarse y volverse infértil
+                    con facilidad, lo que se traducía en una alta probabilidad en cuestión de
+                    deslaves y desastres naturales.
+                </p>
+
+=======
+
+<div class="content clearfix" id="header">
     <img src="../img/d.jpg" width="1500" height="700" class="img-responsive">
 </div>
 
@@ -118,6 +201,7 @@ h2{
                     deslaves y desastres naturales.
                 </p>
 
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
                 <p class="text-justify">
                     Mediante la restauración se mejora también la captación de lluvia y se encausan las aguas naturalmente, siendo más fácil aprovecharlas. Además
                     de que los nuevos árboles capturan CO2 de la atmósfera, lo que mejora 

@@ -29,6 +29,8 @@ http://localhost/tree1/Donaunarbol
 
 $config['base_url'] = 'http://localhost/Donaunarbol';
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Index File

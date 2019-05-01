@@ -19,6 +19,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  margin-top:-12vh;
 }
 
 .price:hover {
@@ -120,7 +121,45 @@ input{
 
 .tuArbolito p{
   font-size:13px;
+<<<<<<< HEAD
+=======
 }
+
+
+.tuArbolitoText p{
+  margin:30% 0;
+  font-family: lightHelvetica;
+}
+.busca, input{
+  font-family: fontFooter;
+  font-size:20px;
+}
+
+.price h3{
+  font-family: boldHelvetica;
+}
+
+.container h1{
+  font-family: boldHelvetica;
+}
+
+.icons{
+  padding:10% 0;
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
+}
+
+.imagenes {
+  margin-bottom:5%;
+}
+
+@media screen and (max-width:768px){
+  #header{
+    margin-top:12vh;
+  }
+}
+
+
+
 
 
 .tuArbolitoText p{
@@ -156,7 +195,11 @@ input{
 
 
 
+<<<<<<< HEAD
 <div class= "header">
+=======
+<div class= "header" id="header">
+>>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
     <div class="container tuArbolito">
         <div class="row justify-content-md-center ">
               <div class="col-md-6  arbol">
