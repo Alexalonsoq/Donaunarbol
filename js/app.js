@@ -2,6 +2,7 @@ const links =document.querySelectorAll("li a");
 const navLinks =document.querySelectorAll(".nav-links li");
 const dona= document.getElementById("donaBoton");
 const home =document.getElementById("ImagenHome");
+
 const navSlide = ()=>{
     const burger =document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
@@ -10,6 +11,7 @@ const navSlide = ()=>{
     
     const actualLink =document.querySelectorAll( 'a[href="'+document.URL+'"]');
     const logo=document.getElementById("imagenLogo");
+    
     
     
     
@@ -34,29 +36,51 @@ const navSlide = ()=>{
 
    
 
-    links.forEach((link)=>{
+    // links.forEach((link)=>{
        
-        link.addEventListener("click",function(){
-            console.log("eL LINK DE DONA ES "+link);
-            console.log(document.URL);
+    //     link.addEventListener("click",function(){
             
-                links.forEach((link)=>{
-                    link.classList.remove("active");
-                    this.classList.add("active");
-                });
+            
+    //             links.forEach((link)=>{
+    //                 link.classList.remove("active");
+    //                 this.classList.add("active");
+    //             });
                 
-        });
-    });
+    //     });
+    // });
 
    
-    const header= document.querySelector("#header");
+   
   
  
     dona.classList.remove("active");
-   home.classList.remove("active");
-   actualLink[0].classList.add("active");
-   dona.classList.remove("active");
-   home.classList.remove("active");
+    home.classList.remove("active");
+    const botoncito =document.querySelector(".botoncito");
+    if(document.URL==path+"home/dona"){
+        console.log("entre al if");
+        botoncito.classList.add("active-dona");
+        const miBoton=document.querySelector("#donaBoton");
+        miBoton.style.backgroundColor="blue";
+        
+    }
+
+    else{
+        
+        actualLink.forEach((link)=>{
+         
+            console.log(link);
+           
+           
+                 link.classList.add("active");
+            
+            
+            console.log(link);
+            dona.classList.remove("active");
+            home.classList.remove("active");
+        })
+       
+    }
+  
 
 
    

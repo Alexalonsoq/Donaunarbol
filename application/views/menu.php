@@ -257,6 +257,12 @@
               
             }
 
+            .active-dona{
+                
+                background-color: blue;
+                /* padding: 3% 10%; */
+            }
+
             /* .white-links {
                 color:white;
             } */
