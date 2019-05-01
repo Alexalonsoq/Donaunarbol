@@ -247,6 +247,16 @@
               
             }
 
+            .active-white::after{
+                content:'';
+                display:block;
+                width:100%;
+                height:1px;
+                background:white;
+                   /* transition: width .3s;   */
+              
+            }
+
             /* .white-links {
                 color:white;
             } */

@@ -109,12 +109,16 @@ const navSlide = ()=>{
 
 //   vista campaña
 
-if(document.URL=="http://localhost/tree1/Donaunarbol/home/campana"){
+if(document.URL=="http://localhost/tree1/Donaunarbol/home/campana" && screen.width>768){
     
     links.forEach((link) =>{
         console.log(links);
         
             link.style.color ='white';
+            actualLink[0].classList.add("active-white");
+            dona.classList.remove("active-white");
+            home.classList.remove("active-white");
+            
        
         // delay between each link 
         window.onscroll=()=>{
@@ -126,8 +130,10 @@ if(document.URL=="http://localhost/tree1/Donaunarbol/home/campana"){
             if(this.scrollY >= header.offsetHeight ){
                 links.forEach((link)=>{
                     link.style.color ='';
+
                 })
                 nav.className = 'scroll';
+                actualLink[0].classList.remove("active-white");
             }
 
             else{
@@ -135,7 +141,59 @@ if(document.URL=="http://localhost/tree1/Donaunarbol/home/campana"){
                 console.log(link);
                 links.forEach((link)=>{
                     link.style.color ='white';
+                    
                 })
+                actualLink[0].classList.add("active-white");
+                dona.classList.remove("active-white");
+                home.classList.remove("active-white");
+                
+                nav.className = '';
+            }
+        }
+            
+        
+        
+    });
+}
+
+
+if(document.URL=="http://localhost/tree1/Donaunarbol/home/arbolito" && screen.width>768){
+    
+    links.forEach((link) =>{
+        console.log(links);
+        
+            link.style.color ='white';
+            actualLink[0].classList.add("active-white");
+            dona.classList.remove("active-white");
+            home.classList.remove("active-white");
+            
+       
+        // delay between each link 
+        window.onscroll=()=>{
+            const header= document.querySelector("#header");
+            const nav = document.querySelector('#navbar');
+            console.log(header.offsetHeight )
+            console.log(this.scrollY);
+            console.log(links);
+            if(this.scrollY >= header.offsetHeight ){
+                links.forEach((link)=>{
+                    link.style.color ='';
+
+                })
+                nav.className = 'scroll';
+                actualLink[0].classList.remove("active-white");
+            }
+
+            else{
+                console.log("Entre al else");
+                console.log(link);
+                links.forEach((link)=>{
+                    link.style.color ='white';
+                    
+                })
+                actualLink[0].classList.add("active-white");
+                dona.classList.remove("active-white");
+                home.classList.remove("active-white");
                 
                 nav.className = '';
             }
