@@ -1,12 +1,16 @@
+const links =document.querySelectorAll("li a");
+const navLinks =document.querySelectorAll(".nav-links li");
 const navSlide = ()=>{
     const burger =document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
-    const navLinks =document.querySelectorAll(".nav-links li");
+   
     const contacto =document.querySelector("#contacto");
-    const links =document.querySelectorAll("li a");
+    
     const actualLink =document.querySelectorAll( 'a[href="'+document.URL+'"]');
     const dona= document.getElementById("donaBoton");
     const home =document.getElementById("ImagenHome");
+    
+    // const header= document.querySelector("#header");
    
     // const link =document.querySelector(".cool-link");
     
@@ -48,7 +52,9 @@ const navSlide = ()=>{
 
    
     console.log("LInk  actual"+actualLink);
-   
+    const header= document.querySelector("#header");
+  
+ 
 
    actualLink[0].classList.add("active");
    dona.classList.remove("active");
@@ -83,26 +89,64 @@ const navSlide = ()=>{
    }
     
 
-    window.onscroll = () => {
+  window.onscroll = () => {
+        
         const header= document.querySelector("#header");
         const nav = document.querySelector('#navbar');
-        // const sus = document.querySelector("body > div.content.clearfix > img");
         if(  this.scrollY > header.offsetHeight ){
-            
+          
             nav.className = 'scroll';
-            // console.log(campana.offsetHeight)
-            
         } 
 
        
          else {
             nav.className = '';
+            
          }
+
+         
     };
 
- 
-   
-   
+//   vista campaña
+
+if(document.URL=="http://localhost/tree1/Donaunarbol/home/campana"){
+    
+    links.forEach((link) =>{
+        console.log(links);
+        
+            link.style.color ='white';
+       
+        // delay between each link 
+        window.onscroll=()=>{
+            const header= document.querySelector("#header");
+            const nav = document.querySelector('#navbar');
+            console.log(header.offsetHeight )
+            console.log(this.scrollY);
+            console.log(links);
+            if(this.scrollY >= header.offsetHeight ){
+                links.forEach((link)=>{
+                    link.style.color ='';
+                })
+                nav.className = 'scroll';
+            }
+
+            else{
+                console.log("Entre al else");
+                console.log(link);
+                links.forEach((link)=>{
+                    link.style.color ='white';
+                })
+                
+                nav.className = '';
+            }
+        }
+            
+        
+        
+    });
+}
+
+    
 
 }
 
@@ -111,3 +155,5 @@ const navSlide = ()=>{
 
 
 navSlide();
+// menu();
+

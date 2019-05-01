@@ -121,7 +121,7 @@
                 margin-top:auto;
                 width:100%;
                 
-                padding:10% 20%;
+                padding:10% 30%;
                 background-color:#80a8db;
                 border-color:#80a8d9;
                 font-family:fontFooter;
@@ -143,8 +143,6 @@
                       flex-direction: column;
                       align-items: center;
                       width: 100%;
-                      /* justify-content: center; */
-                     
                       /* lo saco de la pantalla asi */
                       transform: translate(100%);
                       transition:transform 0.5s ease-in;
@@ -224,10 +222,6 @@
                   transform: rotate(45deg) translate(-5px,-6px);
               }
 
-            
-             
-
-             
                .cool-link::after{
                    content:'';
                    display:block;
@@ -252,6 +246,10 @@
                    /* transition: width .3s;   */
               
             }
+
+            /* .white-links {
+                color:white;
+            } */
 
            
         
