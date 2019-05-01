@@ -67,7 +67,7 @@ const navSlide = ()=>{
     
    if(screen.width<=768){
     contacto.addEventListener("click",()=>{
-        // nav.classList.remove("nav-active");
+        
         nav.classList.toggle("nav-active");
         // animate links
         navLinks.forEach((link, index) =>{
@@ -106,11 +106,7 @@ const navSlide = ()=>{
     };
 
 //   vista campaña
-
-console.log(window.location.pathname);
-
-if(window.location.pathname=="/tree1/Donaunarbol/home/campana" && screen.width>768){
-    console.log(document.baseURI+"/home/campana");
+if(document.URL==path+"home/campana" && screen.width>768){
     logo.src= path+"/img/logo2.png";
     
     links.forEach((link) =>{
@@ -157,8 +153,8 @@ if(window.location.pathname=="/tree1/Donaunarbol/home/campana" && screen.width>7
     });
 }
 
-
-if(document.URL=="http://localhost/tree1/Donaunarbol/home/arbolito" && screen.width>768){
+// vista tu arbolito
+if(document.URL==path+"home/arbolito" && screen.width>768){
     
     links.forEach((link) =>{
         
@@ -170,7 +166,7 @@ if(document.URL=="http://localhost/tree1/Donaunarbol/home/arbolito" && screen.wi
             logo.src= path+"/img/logo2.png";
             
        
-        // delay between each link 
+       
         window.onscroll=()=>{
             const header= document.querySelector("#header");
             const nav = document.querySelector('#navbar');
@@ -200,8 +196,6 @@ if(document.URL=="http://localhost/tree1/Donaunarbol/home/arbolito" && screen.wi
             }
         }
             
-        
-        
     });
 }
 
@@ -214,5 +208,5 @@ if(document.URL=="http://localhost/tree1/Donaunarbol/home/arbolito" && screen.wi
 
 
 navSlide();
-// menu();
+
 
