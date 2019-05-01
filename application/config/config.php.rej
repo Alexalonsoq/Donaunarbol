@@ -1,0 +1,10 @@
+diff a/application/config/config.php b/application/config/config.php	(rejected hunks)
+@@ -29,6 +29,8 @@
+ 
+ $config['base_url'] = 'http://localhost/Donaunarbol';
+ 
++
++
+ /*
+ |--------------------------------------------------------------------------
+ | Index File

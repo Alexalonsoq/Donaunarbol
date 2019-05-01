@@ -151,7 +151,6 @@ include('menu.php');
 }
 .logos{
   background-color:#f4f4f4;
-<<<<<<< HEAD
 }
 
 @font-face {
@@ -172,73 +171,6 @@ include('menu.php');
   font-size:20pt;
   background-color:#80a8d9;
 }
-
-.dona{
-  background-color:#80a8d9;
-  border-color:#80a8d9;
-}
-
-.arbol h3{
-  font-family:gothamMedium;
-  font-size:32px;
-}
-
-.invitacion h2{
-  font-family: boldHelvetica;
-}
-
-.gracias h1{
-  font-family:fontFooter;
-}
-
-.necesitamos h1{
-  font-family:fontFooter;
-}
-
-.boton a{
-  font-family:myFont;
-}
-
-.grey h3{
-  font-family:fontFooter;
-  font-size:20px;
-}
-
-.green h3{
-  font-family:fontFooter;
-  font-size:20px;
-}
-
-.dark-grey h3 {
-  font-family:fontFooter;
-  font-size:20px;
-}
-.ayuda{
-  padding:4% 0;
-}
-</style>
-=======
-}
-
-@font-face {
-    font-family: title;
-    src: url(img/fonts/GOTHAM-ULTRA.ttf);
-}
-@font-face {
-    font-family: dona;
-    src: url(img/fonts/HELVETICALTSTD-ROMAN.otf);
-}
-#participacion{
-  font-family:title;
-  font-size:33pt;
-}
-
-#dona{
-  font-family:dona;
-  font-size:20pt;
-  background-color:#80a8d9;
-}
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
 
 .dona{
   background-color:#80a8d9;

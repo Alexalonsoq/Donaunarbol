@@ -5,11 +5,7 @@
 
 
 
-<<<<<<< HEAD
-#myParallax{
-=======
 #header, #myParallax{
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
   position:relative;
   background-attachment: fixed;
   background-position: center;
@@ -20,18 +16,11 @@
 .mainImage{
   background-image: url(../img/biology-blur-close-up.jpg);
   min-height:500px;
-<<<<<<< HEAD
-}
-
-@media only screen and (max-device-width: 1024px) {
-  #myParallax {
-=======
   margin-top:-12vh;
 }
 
 @media only screen and (max-device-width: 1024px) {
   #header {
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
     background-attachment: scroll;
     width: 100%;
     height:auto;
@@ -81,7 +70,6 @@ span{
 .text{
   height:auto;
   background-color:white;
-<<<<<<< HEAD
 }
 
 #mainText{
@@ -102,28 +90,6 @@ span{
   margin:10% 0;
 }
 
-=======
-}
-
-#mainText{
-  margin:10% 0;
-}
-
-.imageWorld{
-
-  background-image: url(../img/earth-blue-planet-globe-planet.jpeg);
-  min-height:500px;
-}
-
-.imageWorld .textWorld{
-  background-color:#80a8d9;
-}
-
-.actions{
-  margin:10% 0;
-}
-
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
 .videoTitle{
   margin-bottom:30px;
 }
@@ -167,25 +133,17 @@ span{
  
 }
 
-<<<<<<< HEAD
-</style>
-=======
 @media screen and (max-width:768px){
   #header{
     margin-top:12vh;
   }
 }
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
 
 </style>
 
-<<<<<<< HEAD
- <div id="myParallax" class="mainImage">
-=======
 <div id="campana">
       
  <div  class="mainImage" id="header">
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
             <div class="caption">
                 <span id="myBorder" class="textWorld">NUESTRA CAMPAÑA</span>
                 <br>
@@ -324,10 +282,7 @@ span{
   <img src="../img/pexels-photo.jpg" width="2500" height="500" class="img-responsive">    
 </div>
 
-<<<<<<< HEAD
-=======
 </div>
->>>>>>> a6f9fc11ed7b58c8c653e9ac695f1e077d278000
  
 
   
