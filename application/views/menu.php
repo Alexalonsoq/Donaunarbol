@@ -115,6 +115,17 @@
                   }
               }
 
+               
+              #donaBoton{
+                color:White;
+                margin-top:auto;
+                width:100%;
+                
+                padding:10% 20%;
+                background-color:#80a8db;
+                border-color:#80a8d9;
+                font-family:fontFooter;
+              }
 
               @media screen and (max-width:768px){
                   /* esconde mi menu */
@@ -125,7 +136,7 @@
                   .nav-links{
                       position: absolute;
                       right:0;
-                      height:80vh;
+                      height:88vh;
                       top:12vh;
                       background-color: white;
                       display: flex;
@@ -143,7 +154,8 @@
                   .nav-links li{
                       opacity: 0;
                       margin-right:0;
-                      /* margin:10%; */
+                      margin-bottom:10%;
+                      text-align:center;
                   }
 
                   .burger{
@@ -167,12 +179,19 @@
                     font-size:25px;
                   }
 
+                  .botoncito{
+                    background-color: #80a8d9;
+                    padding: 3% 10%;
+                  }
+
                  
 
                  #donaBoton{
-                   font-size:15px;
+                   font-size:20px;
                    text-align:center;
+                   padding:0;
                  }
+
                   
               }
 
@@ -206,18 +225,9 @@
               }
 
             
-              
-              #donaBoton{
-                color:White;
-                margin-top:auto;
-                width:100%;
-                
-                padding:13% 25%;
-                background-color:#80a8db;
-                border-color:#80a8d9;
-                font-family:fontFooter;
-              }
+             
 
+             
                .cool-link::after{
                    content:'';
                    display:block;
@@ -253,7 +263,7 @@
         <div class="sticky-top" >
             <nav id="navbar">
                 <div class="logo">
-                  <li><a href="<?php echo base_url();?>" onclick="menu(1)"><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
+                  <li><a href="<?php echo base_url();?>"  id="ImagenHome" ><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
                 </div>
                 <ul class="nav-links">
                     <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" >Campaña</a></li>

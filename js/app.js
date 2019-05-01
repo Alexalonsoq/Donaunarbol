@@ -5,6 +5,8 @@ const navSlide = ()=>{
     const contacto =document.querySelector("#contacto");
     const links =document.querySelectorAll("li a");
     const actualLink =document.querySelectorAll( 'a[href="'+document.URL+'"]');
+    const dona= document.getElementById("donaBoton");
+    const home =document.getElementById("ImagenHome");
    
     // const link =document.querySelector(".cool-link");
     
@@ -44,17 +46,16 @@ const navSlide = ()=>{
         });
     });
 
-    // if(actualLink=="a#donaBoton"){
-    //     console.log("El link actual es  "+link);
-    //     link.classList.remove("active"); 
-    // }
-    // else{
-        
+   
+    console.log("LInk  actual"+actualLink);
+   
 
-    // }
-
-    
    actualLink[0].classList.add("active");
+   dona.classList.remove("active");
+   home.classList.remove("active");
+
+
+   
 
 
 
