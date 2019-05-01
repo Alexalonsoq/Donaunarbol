@@ -271,7 +271,7 @@
         <div class="sticky-top" >
             <nav id="navbar">
                 <div class="logo">
-                  <li><a href="<?php echo base_url();?>"  id="ImagenHome" ><img src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
+                  <li><a href="<?php echo base_url();?>"  id="ImagenHome" ><img  id="imagenLogo"src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
                 </div>
                 <ul class="nav-links">
                     <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" >Campaña</a></li>
@@ -289,6 +289,7 @@
                 </div>
             </nav>
         </div>
+        <script type="text/javascript">var path = "<?php echo base_url();?>";</script>
         <script src="<?php echo base_url();?>js/app.js"></script>
     </body>
 
