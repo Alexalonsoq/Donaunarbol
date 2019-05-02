@@ -140,6 +140,11 @@ span{
   }
 }
 
+.campanaText p{
+  font-size:16pt;
+}
+
+
 </style>
 
 <div id="campana">
@@ -156,7 +161,7 @@ span{
 
  <div class="container-fluid text" id="mainText">
         <div class="row justify-content-md-center">
-            <div class="col-md-8 campanaText" >
+            <div class="col-md-8 campanaText"  >
                 <p align="justify"> 
                   Dona un Árbol al mundo es una campaña de restauración ambiental y empoderamiento social que se
                   suma a esfuerzos internacionales por frenar el cambio climático. Surgió en Julio de 2017
@@ -191,12 +196,12 @@ span{
  <div class="container actions">    
         <br>
         <div class="row">
-          <div class="col-md-4 text-center footerFont">
-            <h2>¿Cómo funciona?</h2>
+          <div class="col-md-6 text-center footerFont">
+            <h2 style="font-weight: bold">¿Cómo funciona?</h2>
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-3 col-sm-12">
               <div class="white-box">
-                    <p >01. CONCIENCIA</p>
+                    <p style="font-weight: bold" >01. CONCIENCIA</p>
                     <p align="justify">Es fundamental que todas las personas
                       conozcamos más de la situación ambiental de neustro planeta 
                       y seamos conscientes de la importancia que los árboles representan 
@@ -206,9 +211,9 @@ span{
     </div>
 
   
-    <div class="col-md-4 col-sm-12">
+    <div class="col-md-3 col-sm-12">
       <div class="gray-box">
-        <p font-weight="bold">02. ACCIÓN</p>
+        <p style="font-weight: bold">02. ACCIÓN</p>
         <p align="justify">Invitamos a hacer una donación
           con la cual podremos plantar
           muchos árboles y 
@@ -220,9 +225,9 @@ span{
 </div>
 
 <div class="row justify-content-end">
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-3 col-sm-12">
           <div class="gray-box">
-            <p>03. CONEXIÓN</p>
+            <p style="font-weight: bold">03. CONEXIÓN</p>
             <p align="justify">Una vez que se planta el árbol ponemos 
               el distintivo con el nombre elegido por el
               donador,luego se envía la fotografía, 
@@ -232,9 +237,9 @@ span{
           </div>
         </div> 
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-3 col-sm-12">
           <div class="white-box">
-          <p>04. DIFUSIÓN</p>
+          <p style="font-weight: bold">04. DIFUSIÓN</p>
           <p align="justify">
             Invitamos a que las personas se asuman como parte de esta
             campaña y nos ayuden a difundirla con sus amigos y familiares 

@@ -125,6 +125,7 @@ include('menu.php');
 
 .regala{
   background-color:rgba(255,255,255,.3);
+  padding:0;
 }
 
 .regala h3{
@@ -169,12 +170,17 @@ include('menu.php');
 #dona{
   font-family:dona;
   font-size:20pt;
-  background-color:#80a8d9;
+  height:100%;
+  margin:2%;
 }
 
 .dona{
   background-color:#80a8d9;
   border-color:#80a8d9;
+  font-family:dona;
+  font-size:20pt;
+  border-radius:0%;
+  
 }
 
 .arbol{
@@ -340,14 +346,14 @@ include('menu.php');
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="container-fluid" id="topRank">
   <div class="row justify-content-center">
     <div class="col-md-12 align-items-center">
         <h1 align="center " class="topRank">Top Rank Donadores</h1>
     </div>
   </div>
-</div>
+</div> -->
   
 
 <div class="container-fluid logos">

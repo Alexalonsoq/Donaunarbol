@@ -98,6 +98,10 @@ h2{
   }
 }
 
+.text-center h2{
+  font-weight:bold;
+}
+
 
 </style>
 

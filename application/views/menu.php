@@ -59,7 +59,7 @@
 
               }
               .botoncito{
-                    padding:1% 5%;
+                    padding:1% 3%;
                     background-color:#80a8d9;
                 }
            
@@ -183,7 +183,7 @@
 
                   .botoncito{
                     background-color: #80a8d9;
-                    padding: 3% 7%;
+                    padding: 3% 10%;
                     /* flex-grow: 1; */
                   }
 
