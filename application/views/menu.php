@@ -50,41 +50,51 @@
 
               nav{
                   display: flex;
-                  justify-content: space-around;
+                  /* background-color:yellow; */
+                  justify-content: space-evenly;
                   align-items: center;
                   min-height:12vh;
-                 
                   z-index:100;
                   transition:all .2s ease;
 
               }
+              .botoncito{
+                    padding:1% 3%;
+                    background-color:#80a8d9;
+                }
+           
 
               .scroll{
                  background-color: white;
               }
 
               .logo{
-                margin-left:10%;
                 list-style:none;
+                margin-left:10%;
                 transition:transform .2s ease;
               }
 
               .logo:hover{
-                
                 transform: scale(1.2);
               }
 
               .nav-links{
                   display: flex;
+                  /* background-color:pink; */
+                  height:50px;
+                  text-align:center;
+                  align-items:center;
                   justify-content: flex-end;
+                  /* flex-grow:.1; */
                   width: 70%;
               }
 
               .nav-links li{
                   list-style: none;
-                  margin-right:4%;
+                  margin-right:5%;
                   margin-top:auto;
                   display:inline-block;
+                  /* flex: 1 50%; */
               }
 
               .nav-links a{
@@ -93,6 +103,7 @@
                   font-weight: bold;
                   font-size:17px;
                   font-family:myFont;
+                  display:inline-block;
                 
               }
 
@@ -116,16 +127,7 @@
               }
 
                
-              #donaBoton{
-                color:White;
-                margin-top:auto;
-                width:100%;
-                
-                padding:10% 30%;
-                background-color:#80a8db;
-                border-color:#80a8d9;
-                font-family:fontFooter;
-              }
+             
 
               @media screen and (max-width:768px){
                   /* esconde mi menu */
@@ -136,7 +138,7 @@
                   .nav-links{
                       position: absolute;
                       right:0;
-                      height:88vh;
+                      height:75vh;
                       top:12vh;
                       background-color: white;
                       display: flex;
@@ -146,6 +148,7 @@
                       /* lo saco de la pantalla asi */
                       transform: translate(100%);
                       transition:transform 0.5s ease-in;
+                      
                      
                   }
 
@@ -171,6 +174,7 @@
                  
                   .logo{
                     margin-left:25%;
+                   
                   }
 
                   .nav-links a{
@@ -180,6 +184,7 @@
                   .botoncito{
                     background-color: #80a8d9;
                     padding: 3% 10%;
+                    /* flex-grow: 1; */
                   }
 
                  
@@ -188,6 +193,10 @@
                    font-size:20px;
                    text-align:center;
                    padding:0;
+                 }
+
+                 #campaign{
+                     margin-top:3%;
                  }
 
                   
@@ -231,43 +240,57 @@
                    transition: width .3s;     
               }
 
-            .cool-link:hover::after, .cool-link:active::after, .cool-link:focus::after   {
-                width:100%;
-                transition: width .3s;
-                
-            }
-
-            .active::after{
-                content:'';
-                display:block;
-                width:100%;
-                height:1px;
-                background:black;
-                   /* transition: width .3s;   */
-              
-            }
-
-            .active-white::after{
-                content:'';
-                display:block;
-                width:100%;
-                height:1px;
-                background:white;
-                   /* transition: width .3s;   */
-              
-            }
 
             .active-dona{
                 
                 background-color: blue;
-                /* padding: 3% 10%; */
+                
             }
 
-            /* .white-links {
-                color:white;
-            } */
 
-           
+
+        @media screen and (min-width:769px){
+               
+                .cool-link:hover::after, .cool-link:focus::after   {
+                    width:100%;
+                    transition: width .3s;
+                    
+                }
+
+                .active::after{
+                    content:'';
+                    display:block;
+                    width:100%;
+                    height:1px;
+                    background:black;
+                    /* transition: width .3s;   */
+                
+                }
+
+                .active-white::after{
+                    content:'';
+                    display:block;
+                    width:100%;
+                    height:1px;
+                    background:white;
+                    /* transition: width .3s;   */
+                
+                } 
+        }
+
+        #donaBoton{
+                color:White;
+                margin-top:auto;
+               
+                text-align:center;
+                /* padding:10% 30%; */
+                background-color:#80a8d9;
+                border-color:#80a8d9;
+                font-family:fontFooter;
+                
+        }
+
+       
         
       </style>
       
@@ -277,14 +300,14 @@
         <div class="sticky-top" >
             <nav id="navbar">
                 <div class="logo">
-                  <li><a href="<?php echo base_url();?>"  id="ImagenHome" ><img  id="imagenLogo"src="<?php echo base_url();?>img/logo.png" alt=""width="100"></a></li>
+                  <li><a href="<?php echo base_url();?>"  id="ImagenHome" ><img  id="imagenLogo"src="<?php echo base_url();?>img/logo.png" alt="" width="100"></a></li>
                 </div>
                 <ul class="nav-links">
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/campana" >Campaña</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/somos" >¿Quiénes somos?</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/arbolito" >Tu árbolito</a></li>
-                    <li><a class ="cool-link"href="<?php echo base_url();?>home/sus" >Sostenibilidad</a></li>
-                    <li><a class ="cool-link"href="#footer"  id="contacto">Contacto</a></li>
+                    <li id="campaign"><a class ="cool-link" href="<?php echo base_url();?>home/campana" >Campaña</a></li>
+                    <li><a class ="cool-link" href="<?php echo base_url();?>home/somos" >¿Quiénes somos?</a></li>
+                    <li><a class ="cool-link" href="<?php echo base_url();?>home/arbolito" >Tu árbolito</a></li>
+                    <li><a class ="cool-link" href="<?php echo base_url();?>home/sus" >Sostenibilidad</a></li>
+                    <li><a class ="cool-link" href="#footer"  id="contacto">Contacto</a></li>
                     <li class="botoncito"><a id="donaBoton"  href="<?php echo base_url();?>home/dona"  role="button">DONA</a></li>
                 </ul>
 

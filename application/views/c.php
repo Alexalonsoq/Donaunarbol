@@ -5,7 +5,7 @@
 </head>
 <body>
    
-<div class="container"> <img src="<?php echo base_url();?>img/construccion.jpeg" class="img-fluid"> </div>
+<div class="container"> <img src="<?php echo base_url();?>img/construccion.jpg" class="img-fluid"> </div>
 
 </body>
 </html>

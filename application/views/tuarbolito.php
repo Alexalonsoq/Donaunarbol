@@ -78,7 +78,7 @@
   background-color:rgba(0,0,0,.4);
   padding:2%;
   padding-top:3%;
-  margin:10% 0%;
+  margin:13% 0%;
   padding-bottom:7%;
   color:white;
 }
@@ -121,6 +121,7 @@ input{
 
 .tuArbolito p{
   font-size:13px;
+  /* margin-top:3%; */
 }
 
 
@@ -227,7 +228,7 @@ input{
       <img src="../img/germa.jpg"   class="img-responsive">
     </div>
     <div class="col-sm-4 col-lg-4 " >
-      <img src="../img/e042 _GUSTAVO.jpeg"     class="img-responsive">
+      <img src="../img/e042 _GUSTAVO.jpg"     class="img-responsive">
     </div>
 
 </div>
@@ -291,7 +292,8 @@ input{
   <img src="../img/brigada.jpg"  height="800" class="img-responsive">
 </div>
 
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.0.js"></script>
 
 
 
