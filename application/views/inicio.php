@@ -177,6 +177,10 @@ include('menu.php');
   border-color:#80a8d9;
 }
 
+.arbol{
+  margin-top:10%;
+}
+
 .arbol h3{
   font-family:gothamMedium;
   font-size:32px;
@@ -259,7 +263,7 @@ include('menu.php');
 
 
 <div class="ayuda">
-      <div class="container" align="center">
+      <div class="container-fluid" align="center">
           <div class="row justify-content-md-center">
               <div class="col-md-8 necesitamos">
                   <h1 color="blue " >Necesitamos tu ayuda</h1>

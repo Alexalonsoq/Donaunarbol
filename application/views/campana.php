@@ -63,6 +63,7 @@ span{
   width: 100%;
   text-align: center;
   color: #000;
+  margin-top:3%;
 }
 
 
@@ -78,7 +79,7 @@ span{
 
 .imageWorld{
 
-  background-image: url(../img/earth-blue-planet-globe-planet.jpeg);
+  background-image: url(../img/earth-blue-planet-globe-planet.jpg);
   min-height:500px;
 }
 
@@ -95,9 +96,9 @@ span{
 }
 
 @media only screen and (max-width: 1100px) {
-  .columns {
+  /* .columns {
     width: 100%;
-  }
+  } */
 
   .video{
     width:100%;

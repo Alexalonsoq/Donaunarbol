@@ -78,7 +78,7 @@
   background-color:rgba(0,0,0,.4);
   padding:2%;
   padding-top:3%;
-  margin:10% 0%;
+  margin:13% 0%;
   padding-bottom:7%;
   color:white;
 }
@@ -121,6 +121,7 @@ input{
 
 .tuArbolito p{
   font-size:13px;
+  /* margin-top:3%; */
 }
 
 
